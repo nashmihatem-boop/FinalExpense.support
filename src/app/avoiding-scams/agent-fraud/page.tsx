@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How to Recognize Agent Fraud",
+  title: "Signs an Agent Isn't Looking Out for Your Family",
   description:
-    "A caring guide to the red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and what to do if you suspect fraud.",
-  openGraph: { title: "How to Recognize Agent Fraud", description: "A caring guide to the red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and what to do if you suspect fraud." },
+    "A caring look at the warning signs that an insurance agent isn't acting in your family's interest — payment requests, blank forms, withheld paperwork — and what to do next.",
+  openGraph: { title: "Signs an Agent Isn't Looking Out for Your Family", description: "A caring look at the warning signs that an insurance agent isn't acting in your family's interest — payment requests, blank forms, withheld paperwork — and what to do next." },
 
-  twitter: { title: "How to Recognize Agent Fraud", description: "A caring guide to the red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and what to do if you suspect fraud." },
+  twitter: { title: "Signs an Agent Isn't Looking Out for Your Family", description: "A caring look at the warning signs that an insurance agent isn't acting in your family's interest — payment requests, blank forms, withheld paperwork — and what to do next." },
 };
 
 export default function AgentFraudPage() {
@@ -19,76 +19,68 @@ export default function AgentFraudPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Agent Fraud
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to recognize agent fraud
+          Signs an agent isn&apos;t looking out for your family
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          The vast majority of licensed agents do exactly what they&apos;re
-          supposed to: match you with coverage, submit your application
-          accurately, and hand you your policy documents. A small number
-          don&apos;t. A handful of specific behaviors are reliable warning
-          signs regardless of how trustworthy or friendly an agent otherwise
-          seems, and they&apos;re worth knowing before you&apos;re in the
-          middle of an application.
+          Most agents genuinely want to help — matching your family with the right coverage,
+          filing your application carefully, and putting your policy documents in your hands
+          without you ever having to ask twice. A small number don&apos;t. Below are the specific
+          moments that should give you pause, no matter how warm or trustworthy the person on the
+          other end of the conversation seems, so you can notice them before you&apos;re deep into
+          an application.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A check made out to the agent, not the carrier
+          Being asked to pay the agent directly, not the carrier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your premium payment should always be made out to the insurance
-          company, never to an individual agent or agency personally, and
-          never handed over in cash. An agent asking you to write a check to
-          them directly, or to pay them in cash &quot;to save time&quot; or
-          &quot;to process it for you,&quot; has no legitimate reason to make
-          that request — it&apos;s also one of the more common ways an agent
-          pockets a payment while a policy is never actually written.
+          Your premium should go to the insurance company itself, every time — never as a check
+          written to an individual agent, and never handed over as cash. If someone suggests
+          paying them personally &quot;to make things easier&quot; or &quot;to speed the process
+          along,&quot; there&apos;s no honest reason for that request. It&apos;s also, unfortunately,
+          one of the simplest ways a bad actor can pocket your family&apos;s money while no real
+          policy is ever put in place.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Pressure to sign blank or incomplete forms
+          Being rushed to sign something with blanks left on it
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You should never be asked to sign a form with blank sections on the
-          promise that &quot;we&apos;ll fill in the rest later.&quot; A
-          signature on a blank or incomplete application means you&apos;re
-          agreeing to whatever gets written in afterward, by someone else,
-          without your review — including answers to health questions that
-          affect whether a future claim gets paid at all. Every field
-          relevant to you should already be filled in before you sign
-          anything.
+          You should never feel pressured to sign a form that isn&apos;t fully filled in, on a
+          promise that the rest will &quot;get taken care of later.&quot; Signing something
+          incomplete means agreeing, in advance, to whatever someone else decides to write in
+          afterward — including the health answers that determine whether your family&apos;s
+          future claim actually gets paid. Every section that applies to you should already be
+          filled in before your signature ever goes on the page.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Refusing to give you copies of what you signed
+          Being reluctant to hand you copies of what you signed
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          After you sign an application or a policy, you&apos;re entitled to
-          a copy of it — not a summary, not a verbal recap, the actual
-          document. An agent who&apos;s slow to provide it, vague about why,
-          or who suggests you don&apos;t really need your own copy is giving
-          you a reason to be concerned. Keep copies of everything you sign
-          for as long as the policy is active.
+          Once you&apos;ve signed an application or a policy, that copy belongs to you — the real
+          document, not a summary and not a verbal reassurance. If an agent is slow to provide it,
+          vague about the delay, or hints that you don&apos;t really need your own copy, take that
+          seriously. Hold on to everything you sign for as long as the policy stays active; it&apos;s
+          a small habit that protects your whole family later.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you suspect fraud
+          If you notice any of this, here&apos;s what to do
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Contact the insurance carrier directly — using contact information
-          you find yourself, not a number the agent gave you — and ask them
-          to confirm that a policy actually exists in your name and that any
-          payment was applied to it. See our guide to{" "}
+          Reach out to the insurance carrier directly, using contact information you find on your
+          own rather than a number the agent gave you, and ask them to confirm a policy actually
+          exists in your name and that your payment was applied correctly. Our guide to{" "}
           <Link href="/avoiding-scams/verify-a-company-is-legitimate" className="text-harbor-mid underline">
             verifying a company is legitimate
           </Link>{" "}
-          for how to find that contact information independently. If
-          anything doesn&apos;t check out, or you can&apos;t get a straight
-          answer, file a complaint with your state&apos;s department of
-          insurance — the same regulator that licensed the agent in the first
-          place. Complaints like this are exactly what that office exists to
-          investigate, and filing one doesn&apos;t require you to have
-          already proven anything, just a specific, honest account of what
-          happened.
+          walks through exactly how to find that information independently. If something
+          doesn&apos;t add up, or nobody will give you a straight answer, file a complaint with
+          your state&apos;s department of insurance — the same regulator who licensed the agent in
+          the first place. That office exists precisely to look into situations like this, and you
+          don&apos;t need proof in hand to file, just an honest account of what happened to your
+          family.
         </p>
 
         <div className="mt-14 text-center">

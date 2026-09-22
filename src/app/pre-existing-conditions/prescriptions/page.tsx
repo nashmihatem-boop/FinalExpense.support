@@ -4,15 +4,15 @@ import { Button } from "@/components/ui/button";
 import { MEDICATIONS } from "@/lib/medication-facts";
 
 export const metadata: Metadata = {
-  title: "How Prescription History Affects Your Application",
-  description: "A plain-language look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
+  title: "How Your Medications Affect Your Application",
+  description: "A caring look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
   openGraph: {
-    title: "How Prescription History Affects Your Application",
-    description: "A plain-language look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
+    title: "How Your Medications Affect Your Application",
+    description: "A caring look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
   },
   twitter: {
-    title: "How Prescription History Affects Your Application",
-    description: "A plain-language look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
+    title: "How Your Medications Affect Your Application",
+    description: "A caring look at why the medications you take can matter as much as the diagnosis behind them when applying for final expense insurance.",
   },
 };
 
@@ -24,36 +24,35 @@ export default function PrescriptionsPage() {
           <Link href="/pre-existing-conditions" className="hover:text-harbor">Pre-Existing Conditions</Link> / Prescription History
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How prescription history affects your application
+          How your medications affect your application
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          On a simplified-issue application, the medications you take can
-          matter as much as the diagnosis behind them. Carriers run a
-          prescription history check as part of their review — here&apos;s
-          why, in plain terms, and what it means for a few of the most common
-          medication categories.
+          On a simplified-issue application, what you take can matter just as much as the
+          diagnosis behind it. Insurers quietly run a prescription history check as part of their
+          review — here&apos;s why, gently explained, and what it tends to mean for a few of the
+          most common medication categories.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why carriers check your prescriptions
+          Why insurers look at your prescriptions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Simplified issue skips the medical exam, but carriers still want
-          confidence that your health answers are accurate. A prescription
-          history check is the main way they confirm that — it&apos;s a
-          quick, behind-the-scenes lookup, not a full medical record request.
-          If your answers and your prescription history line up, the check
-          works in your favor by speeding up approval. If they don&apos;t
-          match, it can lead to a decline or a worse tier than you&apos;d
-          otherwise get, which is exactly why answering every health question
-          honestly matters more than trying to present a cleaner picture.
+          No exam gets scheduled under simplified issue, but that doesn&apos;t mean nothing gets
+          verified — it just means the verification happens somewhere you won&apos;t see it. A
+          quiet lookup at your prescription history is how an insurer confirms your health
+          answers are telling the truth, and it&apos;s nowhere near as invasive as pulling your
+          entire medical chart. Families who answer carefully and honestly usually find this
+          works in their favor: matching records mean a faster yes. It&apos;s when something
+          doesn&apos;t line up that trouble starts — a slower decision, a tougher tier, sometimes
+          a decline — which is exactly why painting too rosy a picture on the application almost
+          never pays off.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some medications also tell carriers something on their own,
-          independent of what you disclosed — a specific drug combination can
-          read as a marker for a condition you might not have thought to
-          mention. That&apos;s part of why the medication itself, not just
-          the diagnosis, factors into the review.
+          There&apos;s a second, quieter layer to this too: certain medications speak for
+          themselves. A particular combination on your prescription list can gently suggest a
+          condition to an insurer even if you never wrote it down. So it isn&apos;t only the
+          diagnosis on the form that shapes the review — the medicine cabinet tells its own part
+          of the story.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">

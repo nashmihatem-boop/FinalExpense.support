@@ -3,15 +3,15 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Can You Be Denied Final Expense Insurance?",
-  description: "An honest, gentle explanation of what actually causes a decline on a final expense application, and what your family's options are if it happens.",
+  title: "Can Your Family Be Denied Final Expense Insurance?",
+  description: "A caring look at what actually causes a decline on a final expense application, and what your family's options are if it happens.",
   openGraph: {
-    title: "Can You Be Denied Final Expense Insurance?",
-    description: "An honest, gentle explanation of what actually causes a decline on a final expense application, and what your family's options are if it happens.",
+    title: "Can Your Family Be Denied Final Expense Insurance?",
+    description: "A caring look at what actually causes a decline on a final expense application, and what your family's options are if it happens.",
   },
   twitter: {
-    title: "Can You Be Denied Final Expense Insurance?",
-    description: "An honest, gentle explanation of what actually causes a decline on a final expense application, and what your family's options are if it happens.",
+    title: "Can Your Family Be Denied Final Expense Insurance?",
+    description: "A caring look at what actually causes a decline on a final expense application, and what your family's options are if it happens.",
   },
 };
 
@@ -23,56 +23,52 @@ export default function CanYouBeDeniedPage() {
           <Link href="/pre-existing-conditions" className="hover:text-harbor">Pre-Existing Conditions</Link> / Can You Be Denied?
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Can you be denied final expense insurance?
+          Can your family be denied final expense insurance?
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          On a simplified-issue application, yes — a specific carrier can say
-          no. What that doesn&apos;t mean is that your family is out of
-          options entirely. Here&apos;s what actually causes a decline, and
-          what to do next if it happens to you.
+          On a simplified-issue application, yes — a specific insurer can say no. What that
+          doesn&apos;t mean, gently, is that your family is out of options entirely. Here&apos;s
+          what genuinely causes a decline, and the caring next steps if it happens to you.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually causes a decline
+          What actually leads to a decline
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most declines come down to a small set of &quot;knockout&quot;
-          questions — conditions serious enough that a carrier won&apos;t
-          offer a simplified-issue policy at all, no matter how the rest of
-          your health looks. Common examples include currently being on
-          oxygen for a lung condition, active cancer treatment, a terminal
-          diagnosis or hospice care, dialysis, a recent organ transplant, or
-          residing in a nursing home. A mismatch between your health answers
-          and your prescription or medical records can also lead to a
-          decline, which is exactly why answering honestly matters more than
-          trying to present a cleaner picture than reality.
+          A short list of what the industry calls &quot;knockout&quot; questions is behind most
+          declines — health situations an insurer treats as too serious for simplified issue,
+          full stop, no matter how well everything else on the application looks. Currently
+          needing oxygen for the lungs falls into that group. So does an active round of cancer
+          treatment, a hospice or terminal diagnosis, dialysis, a transplant within the last few
+          years, and living in a nursing home. There&apos;s a second path to a decline too, one
+          that has nothing to do with your actual health: your answers simply not matching what
+          your prescription or medical records show. That mismatch is precisely why gentle
+          honesty on the application beats a hopeful guess every time.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A decline isn&apos;t the end of the road
+          A decline isn&apos;t the end of your family&apos;s road
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Two things are true at once: a decline from one carrier can happen,
-          and it almost never means coverage is out of reach entirely.
-          Carriers set their own rules, so a condition that knocks you out at
-          one company can still qualify at another. And guaranteed acceptance
-          exists specifically as a backstop — it skips health questions
-          altogether and takes applicants within the eligible age range
-          regardless of health history, in exchange for a two-year waiting
-          period on natural-cause death.
+          Please hold two things as true together: yes, one insurer really can say no, and no,
+          that almost never closes every door for your family. Every company writes its own
+          rulebook, so a condition that trips up one insurer&apos;s underwriting frequently
+          sails through at another&apos;s. And there&apos;s always a safety net waiting beneath
+          all of this — guaranteed acceptance doesn&apos;t ask a single health question, welcomes
+          anyone inside the eligible age range no matter their history, and simply asks for a
+          two-year wait on natural-cause death in return.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you&apos;ve been declined
+          What to do gently if you&apos;ve been declined
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Avoid reapplying blind to a string of carriers — a decline can be
-          recorded in a shared industry database and may work against you on
-          a future application. Instead, working with an agent who knows
-          which carriers tend to be more lenient toward your specific
-          situation is the more direct path, or moving straight to a
-          guaranteed-acceptance policy if a knockout condition applies to
-          you.
+          One thing worth avoiding: firing off applications to a long list of insurers one after
+          another. A decline gets logged in a shared industry database, and it can quietly work
+          against your family the next time around. Far gentler: let an independent agent, who
+          already knows which insurers tend to go easy on your specific situation, guide the next
+          application — or if a knockout condition is genuinely part of your history, simply move
+          straight to a guaranteed-acceptance policy instead.
         </p>
 
         <div className="mt-14 text-center">

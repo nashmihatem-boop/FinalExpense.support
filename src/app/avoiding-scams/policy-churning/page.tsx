@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is Policy Churning, and How Do You Avoid It?",
+  title: "Policy Churning: Protecting a Policy Your Family Already Has",
   description:
-    "A caring look at how churning — replacing a policy you already have mainly to generate a new commission — can cost you a new contestability period and lost cash value.",
-  openGraph: { title: "What Is Policy Churning, and How Do You Avoid It?", description: "A caring look at how churning — replacing a policy you already have mainly to generate a new commission — can cost you a new contestability period and lost cash value." },
+    "A caring explanation of policy churning — being talked into replacing coverage your family already has — and the hidden cost of starting over.",
+  openGraph: { title: "Policy Churning: Protecting a Policy Your Family Already Has", description: "A caring explanation of policy churning — being talked into replacing coverage your family already has — and the hidden cost of starting over." },
 
-  twitter: { title: "What Is Policy Churning, and How Do You Avoid It?", description: "A caring look at how churning — replacing a policy you already have mainly to generate a new commission — can cost you a new contestability period and lost cash value." },
+  twitter: { title: "Policy Churning: Protecting a Policy Your Family Already Has", description: "A caring explanation of policy churning — being talked into replacing coverage your family already has — and the hidden cost of starting over." },
 };
 
 export default function PolicyChurningPage() {
@@ -19,81 +19,70 @@ export default function PolicyChurningPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Policy Churning
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is policy churning, and how do you avoid it?
+          Policy churning: protecting a policy your family already has
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          &quot;Churning&quot; is the industry&apos;s own name for a specific
-          unethical practice: an agent talking you into replacing a life
-          insurance policy you already own with a new one, not because the
-          new policy genuinely serves you better, but mainly because writing
-          a new policy generates a new commission for the agent. It&apos;s a
-          real, named problem in this industry, and worth understanding on
-          its own terms before anyone brings up replacing a policy you
-          already have.
+          There&apos;s a name in this industry for something families run into more than
+          you&apos;d expect: &quot;churning,&quot; when an agent encourages you to swap out a
+          policy you already own for a new one — not because the new one truly serves your family
+          better, but because writing it earns them a fresh commission. It&apos;s worth
+          understanding on its own before anyone brings up replacing coverage you already have in
+          place.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How it works
+          What it tends to look like
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Churning usually doesn&apos;t announce itself as churning. It shows
-          up as a call or visit built around something that sounds like a
-          straightforward upgrade — a lower premium, more coverage, a newer
-          company. What the pitch usually leaves out is what you give up by
-          starting over: the time already spent inside your current
-          policy&apos;s contestability period, and, if it&apos;s a permanent
-          policy that has built any cash value, that value along with it.
+          It rarely announces itself. Usually it arrives dressed up as a friendly upgrade — a
+          lower premium, a bit more coverage, a newer-sounding company. What that conversation
+          quietly skips over is everything your family gives up by starting fresh: the time
+          already invested in your current policy&apos;s contestability period, and, if it&apos;s
+          a permanent policy that&apos;s built any cash value, that value right along with it.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What replacing a policy can actually cost you
+          What starting over can quietly cost your family
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Two specific costs are easy to miss in the moment. First, most life
-          insurance policies carry a contestability period — typically the
-          first two years — during which the insurer can investigate and
-          deny a claim over a misstated or omitted answer on the
-          application. Replacing a policy resets that clock on a brand-new
-          contract, even if your old one was long past its own
-          contestability period. Second, if your existing policy is whole
-          life and has built cash value, surrendering it to buy a new one can
-          mean walking away from that value, or paying a surrender charge to
-          exit it early. A new policy also means underwriting all over again
-          at your current age and health, which can mean a higher premium
-          than the one you&apos;re already locked into.
+          Two costs are easy to overlook in the moment. First, nearly every life insurance policy
+          carries a contestability period — usually the first two years — during which the
+          insurer can look closely at a claim if the original application had a misstated or
+          missing answer. Replacing your policy resets that clock entirely, even if your existing
+          one was long past its own window. Second, if your current policy is whole life and has
+          built cash value, giving it up to buy something new can mean losing that value, or
+          paying a fee to exit early. A new policy also means being underwritten all over again at
+          your age and health today, which can land your family with a higher premium than the one
+          you already have locked in.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why it happens
+          Why this happens at all
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The financial incentive is straightforward — a new policy
-          typically pays the agent who writes it a new commission, while an
-          existing policy sitting untouched pays nothing further. Most
-          agents don&apos;t act on that incentive at your expense; the great
-          majority of replacement conversations happen because
-          someone&apos;s needs genuinely changed. But it&apos;s exactly that
-          incentive that makes churning possible on the occasions when
-          someone does act on it, which is why it&apos;s worth understanding
-          even though it describes a minority of interactions, not a typical
-          one.
+          The incentive is simple: a new policy typically earns the agent who writes it a fresh
+          commission, while your existing, untouched policy earns nothing more. Most agents never
+          act on that incentive at your expense — the vast majority of replacement conversations
+          happen because a family&apos;s needs genuinely changed. But that same incentive is
+          exactly what makes churning possible on the rare occasions someone does lean on it,
+          which is why it&apos;s worth knowing about even though it describes a small minority of
+          conversations, not the typical one.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How to protect your family
+          How to keep your family protected
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A legitimate reason to replace a policy does exist sometimes — your
-          needs changed, or a genuinely better option appeared. A
-          recommendation like that should hold up to a few plain checks, not
-          just to a friendly conversation.
+          Sometimes there really is a good reason to replace a policy — your family&apos;s needs
+          shifted, or something genuinely better came along. A recommendation like that should
+          hold up to a few gentle checks, not just a warm conversation.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">Before you replace a policy</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Ask specifically why the new policy is better for you — not just what&apos;s different about it, but why the difference is worth the reset.</li>
-            <li>• Get the comparison in writing: the new contestability clock, any cash value you&apos;d give up, and the actual premium difference, side by side.</li>
-            <li>• For a decision this size, get a second opinion from someone other than the person recommending the change — a family member or another licensed agent.</li>
+            <li>• Ask specifically why this is better for your family — not just what&apos;s different, but why the reset is worth it.</li>
+            <li>• Ask for the comparison in writing: the new contestability clock, any cash value given up, and the real premium difference, side by side.</li>
+            <li>• For a decision this size, bring in a second set of eyes — a family member or another licensed agent — before you sign anything.</li>
           </ul>
         </div>
 

@@ -3,49 +3,49 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Protecting Your Family From Final Expense Insurance Scams",
+  title: "Protecting Your Family From Final Expense Scams",
   description:
-    "A caring guide to why final expense insurance draws scammers, how to verify a company is legitimate, and six specific things to check before you buy or switch a policy.",
-  openGraph: { title: "Protecting Your Family From Final Expense Insurance Scams", description: "A caring guide to why final expense insurance draws scammers, how to verify a company is legitimate, and six specific things to check before you buy or switch a policy." },
+    "A caring, practical guide to keeping your family safe while shopping for final expense insurance — how to verify a company, spot a scam call, and avoid getting talked into the wrong policy.",
+  openGraph: { title: "Protecting Your Family From Final Expense Scams", description: "A caring, practical guide to keeping your family safe while shopping for final expense insurance — how to verify a company, spot a scam call, and avoid getting talked into the wrong policy." },
 
-  twitter: { title: "Protecting Your Family From Final Expense Insurance Scams", description: "A caring guide to why final expense insurance draws scammers, how to verify a company is legitimate, and six specific things to check before you buy or switch a policy." },
+  twitter: { title: "Protecting Your Family From Final Expense Scams", description: "A caring, practical guide to keeping your family safe while shopping for final expense insurance — how to verify a company, spot a scam call, and avoid getting talked into the wrong policy." },
 };
 
 const TOPICS = [
   {
-    title: "Confirming a company is actually who it says it is",
+    title: "Making sure a company is who they say they are",
     description:
-      "How to check a carrier's and agent's state license, confirm an NPN, and spot payment requests no real insurance company would ever make.",
+      "A simple, free way to check a carrier's and agent's state license before you share anything personal.",
     href: "/avoiding-scams/verify-a-company-is-legitimate",
   },
   {
-    title: "Reading insurance ads for what they actually say",
+    title: "Reading between the lines of insurance ads",
     description:
-      "Why “as low as” pricing and “no medical exam” claims mean something narrower than they sound like.",
+      "What phrases like “as low as” and “no medical exam” really promise, and what they leave out.",
     href: "/avoiding-scams/truth-about-insurance-ads",
   },
   {
-    title: "Spotting a scam call before it costs your family anything",
+    title: "Telling a real call from a scam call",
     description:
-      "The specific differences between a licensed agent's call and a scammer's, and what to do if you're already on the phone with one.",
+      "The tell-tale differences between a caring, licensed agent and someone trying to rush you.",
     href: "/avoiding-scams/scam-calls-targeting-seniors",
   },
   {
-    title: "Knowing who you're actually buying from",
+    title: "Understanding who's actually helping you",
     description:
-      "A plain, honest explanation of a captive agent, an independent agent, and buying direct from a carrier.",
+      "A gentle walkthrough of what a captive agent, an independent agent, and a direct carrier each mean for your family.",
     href: "/avoiding-scams/independent-vs-captive-vs-direct",
   },
   {
-    title: "Understanding policy churning",
+    title: "Watching out for policy churning",
     description:
-      "What it can cost you if someone talks you into replacing a policy you already have, and how to protect yourself.",
+      "Why someone might push your family to replace a policy you already have — and what it could quietly cost you.",
     href: "/avoiding-scams/policy-churning",
   },
   {
-    title: "Recognizing agent fraud",
+    title: "Knowing the signs of agent fraud",
     description:
-      "The specific red flags that an agent isn't acting in your interest, and what to do if you spot one.",
+      "The behaviors that mean an agent isn't looking out for your family, and what to do the moment you notice one.",
     href: "/avoiding-scams/agent-fraud",
   },
 ];
@@ -58,58 +58,52 @@ export default function AvoidingScamsPage() {
           <Link href="/" className="hover:text-harbor">Home</Link> / Avoiding Scams
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Protecting your family from final expense insurance scams
+          Protecting your family from final expense scams
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense insurance is a small policy, but it&apos;s rarely a
-          small decision. It&apos;s usually bought later in life, often
-          specifically to spare the people you love a burden, and sometimes
-          while someone is thinking through a diagnosis or a spouse&apos;s
-          passing. That combination — an important decision, made under
-          emotional weight, without much room for a do-over — is exactly what
-          draws people looking to take advantage. We&apos;d rather you knew
-          what to watch for, however you end up buying, even if it&apos;s not
-          from us.
+          Families usually come to this decision at a tender moment — after a health scare, after
+          watching a parent's own funeral costs land on someone else, or simply while trying to
+          make sure nobody they love is ever caught without a plan. That same tenderness, sadly,
+          is what a small number of bad actors count on. This guide isn't meant to make you
+          suspicious of everyone — it's meant to help your family move through this decision
+          feeling informed and protected, whichever company you eventually choose.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Why this market draws bad actors
+          Why this particular corner of insurance attracts the wrong kind of attention
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense buyers skew older, are sometimes on a fixed income,
-          and sometimes make the decision without a family member reviewing
-          it alongside them. A lot of this business is still conducted by
-          phone or by mail rather than face to face. None of that means most
-          buyers are vulnerable, or that most agents are anything other than
-          licensed professionals doing ordinary, legitimate work — the
-          overwhelming majority of this industry is exactly that. But a
-          market with these features does draw a specific kind of bad actor:
-          one who relies on urgency and unfamiliarity with the product to
-          skip the scrutiny a purchase like this deserves. Recognizing the
-          pattern is most of the defense.
+          Think about who typically buys this coverage: often someone older, sometimes managing
+          a fixed income, and sometimes handling the whole decision without a son, daughter, or
+          spouse double-checking things alongside them. A lot of these conversations still happen
+          by phone or through the mail instead of in person. To be clear, none of that makes a
+          buyer careless, and it certainly doesn't mean most agents are anything less than
+          honest, licensed professionals — the overwhelming majority of people in this business
+          got into it to genuinely help families like yours. But a market shaped this way will
+          always draw a handful of people who lean on urgency and unfamiliarity to rush past the
+          questions a decision like this deserves. Recognizing that pattern early is most of the
+          protection your family needs.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          The reassuring part: this is a regulated market
+          Here's the reassuring part: real rules protect you
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Insurance is one of the more heavily regulated consumer products
-          that exists. Every company and every individual agent selling
-          final expense insurance has to be licensed in the state where you
-          live, and that license is public information you&apos;re entitled
-          to check yourself, for free. That&apos;s not a workaround —
-          it&apos;s the normal, intended way this market is supposed to work,
-          and it&apos;s available to you no matter who you end up buying
-          from, including an agency like this one.
+          Few consumer products come with as much built-in oversight as insurance does. Every
+          company, and every individual agent, has to hold an active license in your state before
+          they can sell you a policy — and that license is a matter of public record you're
+          welcome to check yourself, at no cost, any time. That's not some workaround you have to
+          go looking for; it's exactly how this system is supposed to work, for every family, no
+          matter which agency they end up trusting, ours included.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Six things worth knowing before you buy
+          Six things worth a few minutes of your time
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The rest of this guide breaks down into six specific, practical
-          topics. None of them require special expertise — just knowing what
-          to look for before you need to.
+          The rest of this guide is broken into six short, practical topics. None of them ask you
+          to become an expert — just to know, gently and in advance, what to watch for so your
+          family never has to learn the hard way.
         </p>
         {TOPICS.map((topic) => (
           <div key={topic.href} className="mt-8">

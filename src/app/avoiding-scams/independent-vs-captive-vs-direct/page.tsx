@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Independent vs. Captive vs. Direct: Who You're Really Talking To",
+  title: "Who's Actually Helping You: Captive, Independent, or Direct",
   description:
-    "A caring, honest explanation of the three ways to buy final expense insurance — captive agent, independent agent, or direct from a carrier — and the real tradeoffs of each.",
-  openGraph: { title: "Independent vs. Captive vs. Direct: Who You're Really Talking To", description: "A caring, honest explanation of the three ways to buy final expense insurance — captive agent, independent agent, or direct from a carrier — and the real tradeoffs of each." },
+    "A gentle explanation of the three ways families buy final expense insurance — captive agent, independent agent, or direct from a carrier — and what each one means for you.",
+  openGraph: { title: "Who's Actually Helping You: Captive, Independent, or Direct", description: "A gentle explanation of the three ways families buy final expense insurance — captive agent, independent agent, or direct from a carrier — and what each one means for you." },
 
-  twitter: { title: "Independent vs. Captive vs. Direct: Who You're Really Talking To", description: "A caring, honest explanation of the three ways to buy final expense insurance — captive agent, independent agent, or direct from a carrier — and the real tradeoffs of each." },
+  twitter: { title: "Who's Actually Helping You: Captive, Independent, or Direct", description: "A gentle explanation of the three ways families buy final expense insurance — captive agent, independent agent, or direct from a carrier — and what each one means for you." },
 };
 
 export default function IndependentVsCaptiveVsDirectPage() {
@@ -19,62 +19,49 @@ export default function IndependentVsCaptiveVsDirectPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Independent vs. Captive vs. Direct
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Independent vs. captive vs. direct: who you&apos;re really talking to
+          Who&apos;s actually helping you: captive, independent, or direct
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Knowing what kind of help you&apos;re getting matters as much as
-          knowing what you&apos;re buying. There are three basic ways to buy
-          final expense insurance, and each comes with a genuinely different
-          relationship between you, the person you&apos;re talking to, and
-          the insurance company. None of the three is a scam — they&apos;re
-          just different, and worth understanding honestly rather than
-          through whichever version the person selling you happens to
-          prefer.
+          It helps your family to understand exactly who you&apos;re talking to, not just what
+          they&apos;re selling. There are really only three ways to buy final expense insurance,
+          and each one puts you in a different relationship with the person on the phone and the
+          company behind them. None of the three is a trick — they&apos;re just different, and
+          worth understanding gently before you decide who to trust with this.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           A captive agent
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A captive agent works for, and represents, one specific insurance
-          company. Everything they sell you will be that company&apos;s
-          product. The advantage is depth — a captive agent typically knows
-          their one company&apos;s underwriting rules, products, and
-          paperwork thoroughly. The tradeoff is breadth: if that
-          company&apos;s rules don&apos;t fit your health history or budget
-          well, a captive agent has no other option to offer you, even if a
-          better one exists somewhere else.
+          A captive agent represents one insurance company, and only that company — everything
+          they offer your family comes from that single source. The upside is that they tend to
+          know that one company&apos;s rules, paperwork, and products inside and out. The downside
+          is that if your family&apos;s health history or budget doesn&apos;t fit neatly into that
+          company&apos;s box, a captive agent simply has nothing else to offer, even when a better
+          fit exists somewhere else.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           An independent agent or agency
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          An independent agent — which is what this site connects you with —
-          is licensed to sell policies from multiple insurance companies
-          rather than just one. That means the same conversation about your
-          health, age, and budget can be matched against several
-          carriers&apos; rules instead of just one, which matters in this
-          market specifically because carriers genuinely differ in who
-          they&apos;ll cover and at what rate — a health condition that gets
-          a poor outcome at one company can get a fine one at another. The
-          tradeoff is that an independent agent&apos;s depth on any single
-          carrier is naturally a little shallower than a captive agent who
-          only ever works with one.
+          An independent agent — which is exactly what you&apos;ll find here — can offer policies
+          from several different insurance companies rather than being tied to just one. That
+          matters more than it might sound like, because carriers genuinely see your family
+          differently: a health condition that gets turned away at one company might be welcomed
+          warmly at another. The tradeoff is that an independent agent&apos;s knowledge of any one
+          single carrier tends to run a little less deep than a captive agent&apos;s does.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Buying direct from a carrier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Buying direct means going straight to an insurance company&apos;s
-          own website or call center, with no agent — captive or independent
-          — involved in the transaction at all. The advantage is speed and
-          simplicity for someone who already knows exactly what they want.
-          The tradeoff is that you&apos;re doing your own comparison shopping
-          and your own interpretation of underwriting questions, with nobody
-          on your side of the table matching your situation against other
-          options if the first answer isn&apos;t a good one.
+          Buying direct means going straight to the insurance company&apos;s own website or call
+          line, with no agent standing between you and them at all. This suits someone who already
+          knows precisely what they want and would rather move quickly. What you give up is
+          someone on your side of the conversation, comparing your family&apos;s situation against
+          other carriers if the first answer you get isn&apos;t the best one available.
         </p>
 
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
@@ -107,18 +94,16 @@ export default function IndependentVsCaptiveVsDirectPage() {
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          None of these is automatically the right or wrong choice
+          There&apos;s no single right choice for every family
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A captive agent can be exactly right for someone who already knows
-          and trusts a specific company. Buying direct can be exactly right
-          for a healthy applicant who wants the fastest possible path. An
-          independent agent tends to matter most when your health history,
-          age, or budget make it genuinely unclear which carrier will treat
-          you best — which describes a lot of final expense buyers, but not
-          all of them. The honest answer is to know which of the three
-          you&apos;re actually talking to, and choose the one that matches
-          what your family needs, rather than assume.
+          A captive agent can be a lovely fit for a family that already knows and trusts one
+          particular company. Buying direct can suit a healthy applicant who just wants the
+          fastest path forward. An independent agent tends to matter most when your family&apos;s
+          health, age, or budget make it genuinely unclear which carrier will treat you kindly —
+          which describes many families, though certainly not all. The gentle truth is simply to
+          know which of the three you&apos;re actually speaking with, and choose the one that
+          fits your family, rather than assume.
         </p>
 
         <div className="mt-14 text-center">

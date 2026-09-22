@@ -13,7 +13,7 @@ export async function generateMetadata(props: PageProps<"/pre-existing-condition
   const medication = findMedication(slug);
   if (!medication) return {};
   const title = `${medication.name} and Final Expense Insurance`;
-  const description = `A plain-language look at how a ${medication.name.toLowerCase()} prescription is typically viewed when applying for final expense insurance.`;
+  const description = `A caring look at how a ${medication.name.toLowerCase()} prescription is typically viewed when your family applies for final expense insurance.`;
   return {
     title,
     description,
@@ -43,14 +43,13 @@ export default async function MedicationPage(props: PageProps<"/pre-existing-con
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">{medication.detail}</p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep in mind</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Please keep in mind</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Carriers set their own rules for how they view any given
-            prescription, so the same medication can be treated differently
-            from one company to the next. Always answer health and medication
-            questions accurately — the carrier checks your prescription
-            history regardless, and a mismatch can affect your family&apos;s
-            claim later.
+            No two insurers necessarily see this medication the exact same way — each one writes
+            its own internal guidelines. What stays true everywhere, though, is that your answers
+            need to be honest ones. The insurer will check your prescription history quietly in
+            the background regardless of what you write down, and finding a gap between the two
+            later is what actually puts your family&apos;s claim in danger.
           </p>
         </div>
 

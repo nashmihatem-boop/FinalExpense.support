@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "The Life Insurance Contestability Period, Explained",
+  title: "The Two-Year Contestability Period, Gently Explained",
   description:
-    "A caring look at what the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period.",
-  openGraph: { title: "The Life Insurance Contestability Period, Explained", description: "A caring look at what the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period." },
+    "A caring, plain-language explanation of the standard two-year contestability period, why it exists, and how it differs from a graded or modified waiting period.",
+  openGraph: { title: "The Two-Year Contestability Period, Gently Explained", description: "A caring, plain-language explanation of the standard two-year contestability period, why it exists, and how it differs from a graded or modified waiting period." },
 
-  twitter: { title: "The Life Insurance Contestability Period, Explained", description: "A caring look at what the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period." },
+  twitter: { title: "The Two-Year Contestability Period, Gently Explained", description: "A caring, plain-language explanation of the standard two-year contestability period, why it exists, and how it differs from a graded or modified waiting period." },
 };
 
 export default function ContestabilityPeriodPage() {
@@ -20,63 +20,55 @@ export default function ContestabilityPeriodPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / The Contestability Period
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Understanding the two-year contestability period
+          The two-year contestability period, gently explained
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          &quot;Two years&quot; comes up a lot in life insurance, and it
-          doesn&apos;t always mean the same thing. The contestability
-          period is one specific version of it — standard across the
-          industry, not something to be alarmed by, but worth actually
-          understanding.
+          &quot;Two years&quot; shows up a lot in life insurance, and it doesn&apos;t always mean
+          the same thing for every family. The contestability period is one specific version —
+          standard across the entire industry, nothing to worry over, but worth understanding
+          clearly.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What it actually is
+          What it gently means
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The contestability period is a standard window — typically the
-          first two years a policy is in force — during which the carrier
-          has the right to review a claim closely and verify that the
-          original application was accurate before paying it out. After
-          that window passes, the policy is generally considered
-          &quot;incontestable&quot; on those grounds for most situations,
-          though outright fraud usually remains an exception regardless of
-          how much time has passed. Confirm the specifics with your
-          carrier, since exact terms are set by your policy.
+          It&apos;s simply a standard window — usually the first two years a policy is active —
+          during which the carrier has the right to take a closer look at a claim and confirm the
+          original application was accurate before paying it out. Once that window passes, the
+          policy is generally considered settled on those grounds, with outright fraud remaining
+          the one lasting exception. Confirm the exact terms with your carrier, since specifics
+          vary by policy.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why it exists
+          Why it&apos;s there in the first place
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It protects the cost structure that keeps insurance affordable
-          for everyone. If someone misrepresented their health to get
-          coverage they wouldn&apos;t have otherwise qualified for, the
-          contestability period is the carrier&apos;s window to catch that
-          before a large payout goes out — which keeps premiums fair for
-          the vast majority of applicants who answered honestly in the
-          first place.
+          It protects the cost structure that keeps coverage affordable for every family. If
+          someone misstated their health to get coverage they wouldn&apos;t otherwise have
+          qualified for, this window is the carrier&apos;s chance to catch that before a large
+          payout goes out — which, in turn, keeps premiums fair for the vast majority of families
+          who answered honestly from the start.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What can trigger a closer look
+          What might prompt a closer look
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A death within the contestability window, particularly from a
-          cause connected to a health condition that wasn&apos;t disclosed
-          on the application, is what typically prompts a closer review. A
-          closer look isn&apos;t the same as a denial — it simply means
-          the carrier is confirming the application matches medical and
-          prescription records before releasing payment.
+          A death within this window, especially one connected to a health condition that
+          wasn&apos;t disclosed on the application, is usually what triggers extra review. A
+          closer look isn&apos;t the same thing as a denial — it simply means the carrier is
+          confirming the application lines up with medical and prescription records before
+          releasing the payment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Not the same as a graded or modified waiting period
+          Not the same thing as a graded or modified wait
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These two &quot;two-year&quot; concepts get confused often
-          enough that it&apos;s worth spelling out the difference
-          directly.
+          These two &quot;two-year&quot; ideas get mixed up often enough that it&apos;s worth
+          spelling out the difference plainly.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[480px] border-collapse text-left">
@@ -103,23 +95,20 @@ export default function ContestabilityPeriodPage() {
           </table>
         </div>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If a health condition is part of what you&apos;re weighing, our{" "}
+          If a health condition is part of your family&apos;s decision, our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             guide to pre-existing conditions
           </Link>{" "}
-          covers how graded and modified benefit schedules work in more
-          detail.
+          gently walks through how graded and modified schedules work.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Innocent mistakes vs. misrepresentation</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A small mistake isn&apos;t the same as misrepresentation</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A review during the contestability period is generally
-            looking for material misrepresentation — an answer that would
-            have actually changed the underwriting decision — not minor
-            paperwork inconsistencies. If your policy is past its second
-            anniversary, this generally isn&apos;t something to worry
-            about going forward.
+            A review during this period is looking for something that would have genuinely
+            changed the underwriting decision — not a minor paperwork slip. If your family&apos;s
+            policy is past its second anniversary, this generally isn&apos;t something to worry
+            about anymore.
           </p>
         </div>
 
