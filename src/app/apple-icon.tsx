@@ -16,10 +16,9 @@ export default function AppleIcon() {
           backgroundColor: "#0e5265",
         }}
       >
-        <svg width="116" height="116" viewBox="0 0 48 48" fill="none">
-          <path d="M4 32 Q24 6 44 32" stroke="#eaf6f7" strokeWidth="3.4" strokeLinecap="round" />
-          <line x1="4" y1="34.5" x2="44" y2="34.5" stroke="#4f7f8c" strokeWidth="3.4" strokeLinecap="round" />
-          <circle cx="24" cy="18.7" r="4.2" fill="#c99423" />
+        <svg width="116" height="116" viewBox="0 0 32 32" fill="none">
+          <path d="M16 25.5 C10 21 6 17 6 12.3 C6 9.2 8.5 7 11.6 7 C13.7 7 15.4 8.1 16 10 C16.6 8.1 18.3 7 20.4 7 C23.5 7 26 9.2 26 12.3 C26 17 22 21 16 25.5Z" fill="#eaf6f7" />
+          <circle cx="20.5" cy="10.8" r="2" fill="#c99423" />
         </svg>
       </div>
     ),
