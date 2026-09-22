@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Biggest Mistakes Shopping for Final Expense Insurance",
+  title: "Gentle Mistakes to Avoid When Shopping for Final Expense Insurance",
   description:
-    "A caring rundown of common, avoidable mistakes families make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse.",
-  openGraph: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "A caring rundown of common, avoidable mistakes families make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse." },
+    "Common, easily avoided mistakes families make when shopping for final expense insurance, from comparing only one insurer to letting a policy quietly lapse.",
+  openGraph: { title: "Gentle Mistakes to Avoid When Shopping for Final Expense Insurance", description: "Common, easily avoided mistakes families make when shopping for final expense insurance, from comparing only one insurer to letting a policy quietly lapse." },
 
-  twitter: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "A caring rundown of common, avoidable mistakes families make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse." },
+  twitter: { title: "Gentle Mistakes to Avoid When Shopping for Final Expense Insurance", description: "Common, easily avoided mistakes families make when shopping for final expense insurance, from comparing only one insurer to letting a policy quietly lapse." },
 };
 
 export default function BiggestMistakesPage() {
@@ -20,70 +20,65 @@ export default function BiggestMistakesPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Biggest Mistakes
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          The biggest mistakes families make shopping for final expense insurance
+          Gentle mistakes worth avoiding when shopping for final expense insurance
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Most of these are avoidable with a little awareness upfront. None
-          of them are complicated once you know to look out for them — here
-          are four that come up again and again.
+          Every one of these is easy to sidestep once someone points it out. None require any
+          special expertise to avoid — just a little awareness ahead of time. Here are the four
+          we see come up for families again and again.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Getting only one quote
+          Stopping after a single quote
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Stopping at the first carrier or agent you talk to, instead of
-          comparing, is the most common mistake on this list. Carriers set
-          their own health questions, their own look-back periods, and their
-          own pricing — the same person can get a meaningfully different
-          answer from one company to the next.{" "}
+          By far the most common misstep on this list is settling for the first insurer or agent
+          you happen to speak with. Each insurer writes its own health questions, sets its own
+          look-back window, and prices things its own way — meaning your family could hear a
+          genuinely different answer from a second company than from the first.{" "}
           <Link href="/pre-existing-conditions#why-carriers-differ" className="text-harbor-mid underline">
-            See why the same condition can get different answers from different carriers
+            Read why the same health history can land two different answers at two different
+            insurers
           </Link>{" "}
-          before settling on the first offer you hear.
+          before treating the first offer as your only one.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Buying guaranteed issue when simplified issue was available
+          Choosing guaranteed issue when simplified issue was quietly available
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Guaranteed issue skips health questions entirely, but it costs
-          more for the same coverage and comes with a waiting period. Some
-          families default to it out of assumption, or because it&apos;s
-          what they were offered first, without ever finding out whether
-          they&apos;d actually qualify for simplified issue instead — which
-          is typically cheaper and starts full coverage on day one.
+          Guaranteed issue skips health questions entirely, but that convenience comes at a real
+          cost — a higher price for identical coverage, plus a waiting period. Some families land
+          here simply by assumption, or because it&apos;s what got offered first, without ever
+          finding out whether simplified issue — usually gentler on price and active from day one
+          — was genuinely within reach the whole time.
         </p>
         <PolicyTypesTable />
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Not disclosing health information accurately
+          Shading the truth on health questions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Understating or leaving out a condition to get a better rate, or
-          to avoid a decline, can feel tempting in the moment — but it risks
-          a real problem later. If a claim is filed during the
-          contestability period, the early stretch of the policy when an
-          insurer can still review your original answers against your
-          medical and prescription records, a mismatch can lead to a denied
-          claim or a reduced payout at the exact moment your family needs
-          the money most. Answering honestly the first time protects the
-          coverage you&apos;re paying for.
+          Leaving out a condition, or softening it, to land a better rate or dodge a decline can
+          feel like a small, harmless choice in the moment — but it quietly sets up a real risk
+          later. Should a claim arrive during the contestability period — the early stretch when
+          an insurer can still compare your original answers against medical and prescription
+          records — any mismatch found there can mean a denied claim or a reduced payout, arriving
+          at precisely the moment your family needs that money most. Answering honestly from the
+          start is what actually protects the coverage you&apos;re paying for.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Letting a policy lapse over a missed payment
+          Letting one missed payment quietly end coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A single missed premium doesn&apos;t have to mean losing coverage.
-          Policies include a grace period — a set window, commonly around
-          30 days, though it varies by carrier and state — after a missed
-          due date to catch up before the policy actually lapses. The real
-          mistake isn&apos;t missing a payment occasionally; it&apos;s
-          assuming the policy is already gone and not contacting the
-          carrier or agent in time to fix it. Keeping payment information
-          current, and reaching out right away if a payment fails, protects
-          coverage you&apos;ve already been paying for.
+          Missing a single premium payment doesn&apos;t have to mean losing everything you&apos;ve
+          built. Every policy includes a grace period — commonly around 30 days, though the exact
+          window shifts by insurer and state — to catch up before anything actually lapses. The
+          real mistake here isn&apos;t the missed payment itself; it&apos;s quietly assuming the
+          coverage is already gone and never reaching out to the insurer or agent in time to fix
+          it. Keeping your payment details current, and calling right away the moment something
+          fails, protects coverage your family has already invested in.
         </p>
 
         <div className="mt-14 text-center">

@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance vs. Whole Life Insurance",
+  title: "Final Expense vs. Whole Life Insurance, Gently Untangled",
   description:
-    "Final expense insurance is actually a type of whole life insurance — a smaller, simplified version built for a specific purpose. A caring look at how the two compare.",
-  openGraph: { title: "Final Expense Insurance vs. Whole Life Insurance", description: "Final expense insurance is actually a type of whole life insurance — a smaller, simplified version built for a specific purpose. A caring look at how the two compare." },
+    "Final expense insurance is actually a small, caring branch of whole life insurance, not a separate competitor. Here's how the two gently compare.",
+  openGraph: { title: "Final Expense vs. Whole Life Insurance, Gently Untangled", description: "Final expense insurance is actually a small, caring branch of whole life insurance, not a separate competitor. Here's how the two gently compare." },
 
-  twitter: { title: "Final Expense Insurance vs. Whole Life Insurance", description: "Final expense insurance is actually a type of whole life insurance — a smaller, simplified version built for a specific purpose. A caring look at how the two compare." },
+  twitter: { title: "Final Expense vs. Whole Life Insurance, Gently Untangled", description: "Final expense insurance is actually a small, caring branch of whole life insurance, not a separate competitor. Here's how the two gently compare." },
 };
 
 export default function FinalExpenseVsWholeLifePage() {
@@ -19,89 +19,78 @@ export default function FinalExpenseVsWholeLifePage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Final Expense vs. Whole Life
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance vs. whole life insurance
+          Final expense vs. whole life insurance, gently untangled
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          This one trips families up more than almost any other comparison
-          on this site, because the two aren&apos;t really competitors —
-          final expense insurance is a type of whole life insurance. The
-          confusion is understandable, and worth clearing up plainly.
+          More families get quietly tangled up in this comparison than almost any other on our
+          site, simply because these two were never actually competing — final expense insurance
+          lives inside whole life insurance as a smaller branch of it. Understandable confusion,
+          and worth untangling gently, right now.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Final expense is a type of whole life insurance, not an alternative to it
+          Final expense is a branch of whole life, not a rival to it
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          &quot;Whole life insurance&quot; is the broad category: coverage
-          that lasts your entire life, with a level premium that doesn&apos;t
-          increase, and that builds some cash value over time. Final expense
-          insurance lives inside that category — it&apos;s simply a smaller,
-          simplified-issue version of whole life, purpose-built for one job:
-          covering funeral, burial, and other final costs. Every final
-          expense policy is a whole life policy. Not every whole life policy
-          is a final expense policy.
+          &quot;Whole life insurance&quot; is the wide umbrella: coverage meant to last your
+          entire life, a premium that stays level forever, and some cash value that quietly
+          builds over time. Final expense insurance sits inside that umbrella — it&apos;s simply
+          a smaller, simplified-issue version, built around one caring job: covering funeral,
+          burial, and other final costs. Every final expense policy qualifies as whole life
+          insurance. Not every whole life policy is sized or built as a final expense policy.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How a &quot;traditional&quot; whole life policy differs in practice
+          How a &quot;traditional&quot; whole life policy feels different in practice
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          When people say &quot;whole life insurance&quot; without the
-          &quot;final expense&quot; in front of it, they&apos;re usually
-          describing a larger, more fully underwritten version of the same
-          core product. A few practical differences tend to show up
-          consistently. Coverage amounts are typically much larger, since
-          the policy is often bought for income replacement, estate
-          planning, leaving an inheritance, or business purposes rather than
-          just covering final costs. Underwriting tends to go deeper too —
-          larger face amounts often call for a fuller health review and
-          sometimes a medical exam, rather than the short health-questions-only
-          approach typical of final expense. The product itself can also be
-          more complex, sometimes built with features like dividends or
-          policy loans used deliberately as part of a longer-term financial
-          plan. And while final expense insurance is marketed almost
-          entirely to seniors, traditional whole life is sold across a much
-          wider age range, including to younger buyers focused on lifelong
-          coverage and cash value growth rather than final expenses
-          specifically.
+          When someone mentions &quot;whole life insurance&quot; without the words &quot;final
+          expense&quot; attached, they&apos;re usually picturing a larger, more thoroughly
+          underwritten version of this same core idea. A few gentle differences show up
+          consistently. Coverage amounts run considerably higher, since these policies are often
+          purchased for replacing income, planning an estate, leaving an inheritance, or business
+          needs, rather than simply covering final costs. The underwriting itself tends to dig
+          deeper too — bigger face amounts often call for a fuller health review, sometimes even a
+          medical exam, rather than final expense&apos;s short list of health questions alone. The
+          product can carry more moving parts as well, occasionally built with dividends or policy
+          loans woven in as part of a longer financial strategy. And while final expense coverage
+          is marketed almost entirely toward seniors, traditional whole life reaches a much wider
+          age range, including younger buyers focused on lifelong protection and cash value
+          growth rather than final costs specifically.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where the confusion comes from
+          Where the gentle confusion tends to start
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Both last a lifetime. Both build cash value. Both lock in a level
-          premium. Both get called &quot;permanent&quot; insurance. With
-          that much genuinely in common, it&apos;s easy to see a whole life
-          quote in one context and a final expense quote in another and
-          assume something doesn&apos;t add up when the numbers and
-          questions look completely different. Nothing&apos;s wrong in that
-          scenario — they&apos;re simply different-sized products, aimed at
-          different goals, inside the same broader family of coverage.
+          Both last a lifetime. Both quietly build cash value. Both lock in one level premium.
+          Both get called &quot;permanent&quot; coverage. With that much genuinely in common, it&apos;s
+          easy to see a whole life quote in one place and a final expense quote somewhere else and
+          feel like something doesn&apos;t line up when the numbers and questions look completely
+          different. Nothing is actually wrong there — they&apos;re simply different-sized
+          members of the same caring family of coverage, built around different goals.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Matching the product to your family&apos;s actual goal
+          Matching the product to what your family actually needs
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If the goal is specifically making sure funeral and final costs
-          don&apos;t land on your family, with a fast, simple approval
-          process, final expense insurance is the version purpose-built for
-          that — see our full{" "}
+          If your goal is specifically keeping funeral and final costs off your family&apos;s
+          shoulders, with a fast and gentle approval process, final expense insurance is the
+          version built exactly for that — our full{" "}
           <Link href="/final-expense-insurance" className="text-harbor-mid underline">
             final expense insurance guide
           </Link>{" "}
-          for how it works end to end. If the goal is broader — estate or
-          legacy planning, income replacement, or a larger policy meant to
-          do more than cover final costs — that&apos;s a different
-          conversation, typically with more underwriting involved, and worth
-          raising directly with an agent so you&apos;re matched to the right
-          category rather than the right-sounding name. And if you&apos;re
-          also weighing this against a term policy, our{" "}
+          walks through how it works from start to finish. If your goal is broader — estate
+          planning, replacing income, or a larger policy meant to do more than cover final costs —
+          that&apos;s a different, equally valid conversation, usually involving deeper
+          underwriting, and worth raising directly with an agent so you land in the right category
+          rather than just the right-sounding name. And if you&apos;re also weighing this against
+          a term policy, our{" "}
           <Link href="/final-expense-vs-term-life" className="text-harbor-mid underline">
             final expense vs. term life comparison
           </Link>{" "}
-          covers that side of the decision.
+          gently covers that side of things too.
         </p>
 
         <div className="mt-14 text-center">

@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable, CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance Explained",
+  title: "Final Expense Insurance, Gently Explained",
   description:
-    "A caring, plain-language explanation of how final expense (burial) insurance works, the two main policy types, what affects your premium, and how to apply.",
-  openGraph: { title: "Final Expense Insurance Explained", description: "A caring, plain-language explanation of how final expense (burial) insurance works, the two main policy types, what affects your premium, and how to apply." },
+    "A caring, plain-language walkthrough of how final expense (burial) insurance works, the two main policy types, what shapes your premium, and how to apply.",
+  openGraph: { title: "Final Expense Insurance, Gently Explained", description: "A caring, plain-language walkthrough of how final expense (burial) insurance works, the two main policy types, what shapes your premium, and how to apply." },
 
-  twitter: { title: "Final Expense Insurance Explained", description: "A caring, plain-language explanation of how final expense (burial) insurance works, the two main policy types, what affects your premium, and how to apply." },
+  twitter: { title: "Final Expense Insurance, Gently Explained", description: "A caring, plain-language walkthrough of how final expense (burial) insurance works, the two main policy types, what shapes your premium, and how to apply." },
 };
 
 export default function FinalExpenseInsurancePage() {
@@ -20,78 +20,67 @@ export default function FinalExpenseInsurancePage() {
           Final Expense Insurance
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance, explained with care
+          Final expense insurance, gently explained
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense insurance — also called burial insurance or funeral
-          insurance — is a small whole life insurance policy built for one
-          job: making sure the people you love aren&apos;t stuck paying for
-          your funeral, burial, or final medical bills out of their own
-          pocket.
+          Sometimes called burial insurance or funeral insurance, this is a small whole life
+          policy built around one caring purpose: keeping your family from ever having to cover
+          your funeral, burial, or final medical bills out of their own pocket.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">Key takeaways</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Pays a cash benefit directly to whoever you name as your beneficiary — it isn&apos;t paid to a funeral home.</li>
-            <li>• It&apos;s whole life coverage: once approved, your premium is locked in and coverage doesn&apos;t expire as long as you pay.</li>
-            <li>• Most applicants qualify without a medical exam, and many pre-existing conditions don&apos;t disqualify you.</li>
+            <li>• The cash benefit goes straight to whoever you name — never to a funeral home directly.</li>
+            <li>• It&apos;s whole life coverage, so once you&apos;re approved, your rate is locked in and coverage stays as long as you keep paying.</li>
+            <li>• Most families qualify without any medical exam, and many health conditions won&apos;t stand in the way.</li>
           </ul>
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          How final expense insurance works
+          How it gently works
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You apply for a policy with a coverage amount that fits your
-          family&apos;s needs — commonly enough to cover a funeral, burial or
-          cremation, and any leftover medical or credit card debt. Once
-          approved, you pay a fixed monthly premium for the life of the
-          policy. When you pass away, the insurer pays the full death
-          benefit to your named beneficiary in cash, tax-free, usually
-          within days of the claim being filed. Your family can use it
-          however they need to — funeral costs, other bills, or anything
-          else. Unlike a funeral home prepayment plan, the money isn&apos;t
-          locked into a specific funeral provider or package.
+          You choose a coverage amount that fits your family&apos;s needs — typically enough for a
+          funeral, burial or cremation, plus whatever medical or credit card debt might linger.
+          Once approved, a fixed monthly premium is all you owe for the rest of the policy&apos;s
+          life. When you pass, the insurer sends your named beneficiary the full death benefit in
+          cash, tax-free, usually within days of the claim. Your family decides how to use it —
+          funeral costs, other bills, anything at all. Unlike a prepayment plan with a funeral
+          home, this money was never tied to one specific provider or package.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          The two main types of policies
+          Two main paths to choose between
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Nearly every final expense policy falls into one of two
-          categories. Neither is objectively &quot;better&quot; — the right
-          one depends on your health and how quickly you need full coverage
-          in place.
+          Nearly every policy falls into one of two categories below. Neither is gently
+          &quot;better&quot; on its own — the right fit depends on your health, and how quickly
+          your family needs full coverage in place.
         </p>
 
         <PolicyTypesTable />
         <p className="mt-4 text-sm leading-relaxed text-charcoal/60">
-          Exact numbers vary by carrier, state, and your personal details —
-          a licensed agent can tell you exactly what you qualify for and
-          what it costs, at no charge.
+          Real numbers shift by insurer, state, and your own details — a licensed agent can tell
+          you exactly what you&apos;d qualify for and what it would cost, at no charge to you.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Day-one coverage vs. a waiting period
+          Day-one coverage, or a gentle waiting period
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This is the most important difference between the two policy
-          types above. A simplified-issue policy that accepts your health
-          answers typically provides &quot;day-one&quot; coverage — if you
-          pass away from any covered cause after your first payment is
-          processed, your beneficiary receives the full death benefit.
-          Guaranteed issue policies, since they skip health questions
-          entirely, usually include a two-year waiting period: if you pass
-          away from natural causes during those first two years, the policy
-          typically refunds the premiums you paid rather than paying the
-          full benefit (accidental death is often covered immediately
-          either way). After the waiting period ends, you have full
-          coverage.
+          This is genuinely the biggest difference between the two paths above. Simplified-issue
+          coverage, once your health answers clear, typically starts &quot;day one&quot; — pass
+          away from any covered cause after your first payment goes through, and your family
+          receives the full benefit. Guaranteed issue, since it skips health questions altogether,
+          usually carries a two-year waiting period: a natural-cause passing during those first
+          two years typically means your premiums are refunded rather than the full benefit paid
+          (an accidental death is usually still covered right away either way). Once that window
+          passes, your family has full coverage from then on.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          What affects your premium
+          What gently shapes your premium
         </h2>
         <CostFactorsGrid />
 
@@ -102,53 +91,47 @@ export default function FinalExpenseInsurancePage() {
           <li className="flex gap-4">
             <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-harbor font-display text-sm font-extrabold text-canvas">1</span>
             <p className="text-base leading-relaxed text-charcoal/80">
-              <strong className="text-harbor">Tell us a little about yourself.</strong> Your age,
-              general health, coverage amount, and contact information —
-              that&apos;s the quiz on this site, and it takes about two
-              minutes.
+              <strong className="text-harbor">Share the basics with us.</strong> Your age, general
+              health, coverage amount, and how to reach you — that&apos;s the short quiz on this
+              site, and it takes about two gentle minutes.
             </p>
           </li>
           <li className="flex gap-4">
             <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-harbor font-display text-sm font-extrabold text-canvas">2</span>
             <p className="text-base leading-relaxed text-charcoal/80">
-              <strong className="text-harbor">A licensed agent reaches out, warmly.</strong>{" "}
-              They&apos;ll compare options across our carrier partners and
-              walk you through what you actually qualify for — including
-              price, coverage amount, and whether you&apos;d have a waiting
-              period.
+              <strong className="text-harbor">A licensed agent reaches out warmly.</strong>{" "}
+              They&apos;ll compare options across our carrier partners and walk you through
+              exactly what you qualify for — price, coverage amount, and whether a waiting period
+              would apply.
             </p>
           </li>
           <li className="flex gap-4">
             <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-harbor font-display text-sm font-extrabold text-canvas">3</span>
             <p className="text-base leading-relaxed text-charcoal/80">
-              <strong className="text-harbor">Apply, if you choose to.</strong> If a policy fits,
-              you can complete the application on that same call — most
-              simplified-issue applications only need your health question
-              answers and beneficiary details. There&apos;s no obligation to
-              move forward.
+              <strong className="text-harbor">Apply, only if it feels right.</strong> If a policy
+              fits your family, you can complete everything on that same call — most
+              simplified-issue applications need only your health answers and beneficiary
+              details. There&apos;s never any obligation to move forward.
             </p>
           </li>
         </ol>
 
         <div className="mt-14 rounded-2xl bg-canvas-alt p-7">
           <h2 className="font-display text-xl font-extrabold text-harbor">
-            Why we compare multiple carriers instead of selling one
+            Why we compare several insurers instead of pushing one
           </h2>
           <p className="mt-3 text-base leading-relaxed text-charcoal/80">
-            FinalExpense.support specializes in life insurance and final
-            expense insurance for families who want peace of mind knowing
-            funeral expenses won&apos;t burden the people they love. We
-            partner with multiple providers so we can compare dozens of
-            plans side by side to find the best value for each family,
-            instead of pointing everyone toward a single company&apos;s
-            policy regardless of fit.
+            FinalExpense.support focuses specifically on life insurance and final expense
+            coverage for families who want the peace of knowing funeral costs will never fall on
+            the people they love. We partner with multiple insurers so we can gently compare
+            dozens of plans side by side and find the right value for each family, rather than
+            steering everyone toward a single company&apos;s policy regardless of fit.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-            How we&apos;re paid: when you enroll in a policy through one of
-            our licensed agent partners, that carrier compensates the
-            agency. That&apos;s standard across the industry, and it never
-            changes your premium or comes out of your pocket — getting a
-            quote and talking to an agent is free either way.
+            How we&apos;re paid: when your family enrolls in a policy through one of our licensed
+            agent partners, that insurer compensates the agency directly. That&apos;s standard
+            across this industry, and it never changes your premium or costs you anything extra —
+            a quote and a conversation with an agent are always free.
           </p>
         </div>
 
