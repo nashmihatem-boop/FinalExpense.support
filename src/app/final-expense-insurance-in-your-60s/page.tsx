@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 60s",
+  title: "Final Expense Insurance in Your 60s, Gently Explained",
   description:
-    "A caring look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate.",
-  openGraph: { title: "Final Expense Insurance in Your 60s", description: "A caring look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate." },
+    "A caring look at what changes when your family applies for final expense insurance in your 60s, including how pre-existing conditions start to factor in.",
+  openGraph: { title: "Final Expense Insurance in Your 60s, Gently Explained", description: "A caring look at what changes when your family applies for final expense insurance in your 60s, including how pre-existing conditions start to factor in." },
 
-  twitter: { title: "Final Expense Insurance in Your 60s", description: "A caring look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate." },
+  twitter: { title: "Final Expense Insurance in Your 60s, Gently Explained", description: "A caring look at what changes when your family applies for final expense insurance in your 60s, including how pre-existing conditions start to factor in." },
 };
 
 export default function FinalExpenseInsuranceInYour60sPage() {
@@ -20,7 +20,7 @@ export default function FinalExpenseInsuranceInYour60sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 60s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 60s
+          Final expense insurance in your 60s, gently explained
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -32,71 +32,64 @@ export default function FinalExpenseInsuranceInYour60sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          A lot of families specifically start looking into final expense
-          insurance in their 60s — often around retirement, a first
-          grandchild, or after helping settle a parent&apos;s or
-          friend&apos;s final expenses firsthand. It&apos;s still a strong
-          decade to apply, with a few things that start to look different
-          from your 50s.
+          There&apos;s a reason so many families reach out to us right around this decade —
+          retiring, meeting a first grandchild, or gently walking a parent or friend through their
+          own final arrangements tends to put the question front and center. If that&apos;s what
+          brought you here, please know your 60s remain a genuinely strong window to apply, even
+          as a few things start to shift from what your 50s looked like.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          One of the most common decades to apply
+          A decade insurers know especially well
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Retirement tends to be when a lot of people first sit down and
-          think seriously about fixed costs, what they&apos;re leaving
-          behind, and what they&apos;d rather have handled in advance. Your
-          60s are still comfortably within every carrier&apos;s typical age
-          window, with the full range of coverage amounts and both policy
-          types on the table. Carriers also have deep experience
-          underwriting this age band specifically, since it&apos;s one of
-          the most common ages people actually apply.
+          Something about retirement seems to make fixed costs and end-of-life planning feel real
+          rather than distant. Whatever brings families to this decision at this age, your 60s
+          still sit comfortably inside the age range nearly every insurer welcomes, with every
+          coverage amount and both major policy types genuinely on the table. Because so many
+          people apply at exactly this age, insurers have built up years of experience gently
+          underwriting applicants just like you.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where pre-existing conditions start to matter more
+          Health questions carry a little more weight now
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Compared with your 50s, more applicants in their 60s are managing
-          at least one ongoing condition — blood pressure, cholesterol, a
-          joint replacement, sleep apnea, early diabetes. None of that rules
-          out a strong outcome. Most of these, when stable and
-          well-managed, still qualify for simplified issue and often land
-          at level, day-one coverage. Our{" "}
+          It&apos;s simply true that more people in their 60s are living with something ongoing
+          than people in their 50s — high blood pressure, cholesterol, a new joint, sleep apnea, an
+          early diabetes diagnosis. None of that quietly closes any doors. When a condition is
+          stable and being cared for well, it very often still clears simplified issue and lands
+          your family at the full, day-one benefit. For specifics on your own situation, our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             pre-existing conditions guide
           </Link>{" "}
-          covers how carriers typically treat conditions like these and
-          where they tend to land.
+          gently walks through how particular conditions tend to be treated.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The cost of waiting still adds up
+          Every year you wait has a real cost attached
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense pricing is set by the age you are on the day you
-          apply, then locked for the life of the policy. That means a rate
-          secured in your 60s will typically run higher than the same
-          coverage would have cost in your 50s — but it still beats waiting
-          until your 70s for the identical policy. If the last decade has
-          already passed, the next best time to lock in a rate is simply
-          now, rather than later.
+          Your premium gets fixed at whatever age you happen to be the day you sign, and it stays
+          that way for as long as the policy exists. Practically, this means a 60s rate will run a
+          bit higher than the identical policy would have cost in your 50s — though it&apos;s
+          still gentler than what that same coverage will cost if you wait until your 70s instead.
+          However this decade found you, today is quietly the cheapest day left to decide.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Getting ready to apply
+          A little preparation before you apply
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Before you apply, it helps to have a clear list ready: any
-          diagnoses and roughly when they happened, your current
-          medications, and your general treatment history. Carriers check
-          your prescription history against your answers, so accuracy
-          upfront avoids surprises later. See{" "}
+          Before that first conversation, it helps enormously to have a simple list ready: which
+          conditions apply and roughly when each began, what you&apos;re currently taking, and the
+          broad strokes of your treatment history. Since insurers quietly check prescription
+          records against whatever you tell them, getting these details right from the start
+          spares your family any unpleasant surprises later. Our{" "}
           <Link href="/pre-existing-conditions#how-to-prepare" className="text-harbor-mid underline">
-            how to prepare before you apply
+            guide to preparing before you apply
           </Link>{" "}
-          for the full rundown.
+          covers this in gentle, full detail.
         </p>
 
         <div className="mt-14 text-center">

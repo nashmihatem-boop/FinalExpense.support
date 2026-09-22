@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 70s",
+  title: "Final Expense Insurance in Your 70s, Gently Explained",
   description:
-    "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you.",
-  openGraph: { title: "Final Expense Insurance in Your 70s", description: "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you." },
+    "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions with confidence.",
+  openGraph: { title: "Final Expense Insurance in Your 70s, Gently Explained", description: "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions with confidence." },
 
-  twitter: { title: "Final Expense Insurance in Your 70s", description: "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you." },
+  twitter: { title: "Final Expense Insurance in Your 70s, Gently Explained", description: "A caring look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions with confidence." },
 };
 
 export default function FinalExpenseInsuranceInYour70sPage() {
@@ -20,7 +20,7 @@ export default function FinalExpenseInsuranceInYour70sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 70s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 70s
+          Final expense insurance in your 70s, gently explained
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -32,67 +32,66 @@ export default function FinalExpenseInsuranceInYour70sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          If there&apos;s a single decade this product is built around,
-          it&apos;s this one. More people apply for final expense insurance
-          in their 70s than any other age group — which also means carriers
-          have more experience underwriting this decade than any other.
+          Whenever we look at who&apos;s actually calling us about this coverage, the 70s come out
+          ahead of every other decade, by a wide margin. That single fact matters more than it
+          might seem — it means insurers have spent years quietly refining exactly how they treat
+          applicants at this stage of life.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The core buying age for this product
+          You&apos;re arriving right on time, not late
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your 70s are where the largest share of final expense applicants
-          land. Both simplified and guaranteed issue are actively used at
-          this age, and most carriers&apos; simplified-issue questionnaires
-          are written with exactly this age band in mind. If you&apos;re in
-          your 70s and just starting to look into this, you&apos;re not
-          behind — you&apos;re squarely in the group this coverage was
-          designed for.
+          More families settle on final expense coverage in their 70s than in any other decade of
+          life. Both simplified issue and guaranteed acceptance see genuine, everyday use here, and
+          the health questions on most simplified-issue applications were quietly built with
+          exactly this age group in mind. If you&apos;re just now starting to look into this in
+          your 70s, please don&apos;t feel behind — you&apos;ve simply arrived at the moment this
+          coverage was designed around.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why more applicants have something to disclose
+          Having something to disclose is genuinely the norm here
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Naturally, by your 70s more people are managing at least one
-          diagnosed condition — heart history, diabetes, a past cancer
-          diagnosis, COPD, arthritis. That&apos;s common, not disqualifying,
-          and it&apos;s exactly what our{" "}
+          By this decade, most families we talk with are managing at least one condition worth
+          mentioning — something with the heart, diabetes, an earlier cancer, COPD, arthritis.
+          That&apos;s simply the ordinary shape of health in your 70s, never a disqualifying one,
+          and it&apos;s precisely the ground our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             pre-existing conditions guide
           </Link>{" "}
-          is built to help with. It covers how carriers evaluate common
-          conditions and where each one typically lands.
+          is built to gently cover — how each condition tends to be viewed, and roughly where it
+          typically lands.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A condition doesn&apos;t automatically mean guaranteed issue
+          Please don&apos;t assume guaranteed issue is your only path
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It&apos;s easy to assume that having something to disclose means
-          skipping straight to guaranteed acceptance, but that&apos;s often
-          not the case. Level and graded outcomes through simplified issue
-          are still very reachable in your 70s, depending on how stable and
-          well-managed the condition is. See{" "}
+          There&apos;s a common, understandable assumption that having a condition to mention
+          means skipping straight to guaranteed acceptance — and gently, that assumption is often
+          simply wrong. Level and graded coverage through simplified issue stay well within reach
+          in your 70s, largely depending on how stable and well cared for your condition already
+          is. Before deciding which category fits your family, take a look at{" "}
           <Link href="/pre-existing-conditions#tiers" className="text-harbor-mid underline">
-            how carriers sort applicants into level, graded, modified, or guaranteed
-          </Link>{" "}
-          before assuming which one applies to you.
+            how insurers actually sort applicants into level, graded, modified, or guaranteed
+          </Link>
+          .
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why comparing carriers matters even more here
+          This is exactly when shopping around pays off most
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every carrier sets its own health questions and look-back periods,
-          and since more 70-year-olds have something to disclose than 50- or
-          60-year-olds do, the gap between a well-matched carrier and a
-          random first pick tends to widen at this age.{" "}
+          Because each insurer writes its own health questions and sets its own look-back
+          timeline, and because so many more 70-year-olds than 50- or 60-year-olds have something
+          to disclose, picking the right insurer versus simply picking the first one matters more
+          than ever at this age. It&apos;s worth reading{" "}
           <Link href="/pre-existing-conditions#why-carriers-differ" className="text-harbor-mid underline">
-            See why the same condition can get different answers from different carriers
+            why the exact same condition can lead two insurers to two different answers
           </Link>{" "}
-          before settling on one.
+          before settling on where your family applies.
         </p>
 
         <div className="mt-14 text-center">

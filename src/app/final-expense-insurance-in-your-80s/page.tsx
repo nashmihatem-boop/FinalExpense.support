@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 80s",
+  title: "Final Expense Insurance in Your 80s, Gently Explained",
   description:
-    "You likely haven't aged out. A caring look at what to know about applying for final expense insurance in your 80s, including when guaranteed issue makes sense.",
-  openGraph: { title: "Final Expense Insurance in Your 80s", description: "You likely haven't aged out. A caring look at what to know about applying for final expense insurance in your 80s, including when guaranteed issue makes sense." },
+    "You likely haven't aged out. A caring look at applying for final expense insurance in your 80s, including when guaranteed issue is the gentle right fit.",
+  openGraph: { title: "Final Expense Insurance in Your 80s, Gently Explained", description: "You likely haven't aged out. A caring look at applying for final expense insurance in your 80s, including when guaranteed issue is the gentle right fit." },
 
-  twitter: { title: "Final Expense Insurance in Your 80s", description: "You likely haven't aged out. A caring look at what to know about applying for final expense insurance in your 80s, including when guaranteed issue makes sense." },
+  twitter: { title: "Final Expense Insurance in Your 80s, Gently Explained", description: "You likely haven't aged out. A caring look at applying for final expense insurance in your 80s, including when guaranteed issue is the gentle right fit." },
 };
 
 export default function FinalExpenseInsuranceInYour80sPage() {
@@ -21,7 +21,7 @@ export default function FinalExpenseInsuranceInYour80sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 80s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 80s
+          Final expense insurance in your 80s, gently explained
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -33,66 +33,64 @@ export default function FinalExpenseInsuranceInYour80sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          A lot of families in their 80s assume they&apos;ve missed the
-          window entirely. In most cases, that isn&apos;t true — final
-          expense insurance remains genuinely available at this age, just
-          with a couple of things worth understanding upfront.
+          We hear a version of the same worry constantly from families reaching out in their 80s:
+          &quot;isn&apos;t it too late for this?&quot; Almost always, gently, no. There&apos;s
+          real coverage still waiting for you here — just a small handful of things that look and
+          feel a little different at this stage of life.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          You likely haven&apos;t aged out
+          That closed-door feeling is usually wrong
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most carriers continue offering final expense coverage well into
-          the 80s. The exact maximum issue age is set by each carrier
-          individually and varies from one company to the next, so rather
-          than assuming you&apos;re past the cutoff, it&apos;s worth
-          actually checking — &quot;too old&quot; is a myth more often than
-          it&apos;s a fact at this stage.
+          Plenty of insurers keep their doors open for final expense applicants well past 80.
+          Where that door actually closes is entirely up to each individual company — there&apos;s
+          no shared industry cutoff, only each insurer&apos;s own maximum issue age, and those
+          numbers differ more than people expect. Please don&apos;t quietly assume you&apos;ve
+          aged past eligibility without checking first; that assumption turns out to be mistaken
+          far more often than it&apos;s confirmed.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Guaranteed issue becomes a more common path
+          Guaranteed acceptance shows up more often at this age
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As health histories lengthen, more applicants in their 80s end up
-          better suited to guaranteed acceptance — the option that skips
-          health questions entirely and accepts anyone within the eligible
-          age range, in exchange for a two-year waiting period on
-          natural-cause death. It&apos;s not the only option at this age,
-          but it&apos;s a more commonly used one than it was a decade or two
-          earlier.
+          Health histories naturally grow longer with each passing decade, and that shift alone
+          nudges more 80-something applicants toward the guaranteed-acceptance side of things.
+          There, health questions disappear entirely, and anyone inside the eligible age window is
+          welcomed regardless of history — the tradeoff is a two-year wait attached to natural-
+          cause death. It&apos;s far from the only door open to you at this age, simply one that
+          more families are walking through than they were ten or twenty years earlier.
         </p>
         <PolicyTypesTable />
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Worth checking simplified issue first
+          Please rule out simplified issue before settling
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Guaranteed issue isn&apos;t automatically the right starting point
-          just because of age. Plenty of families in their 80s are in good
-          enough health to still qualify for simplified issue, which costs
-          less for the same coverage and skips the waiting period entirely.
-          It&apos;s worth having your health answers actually reviewed
-          before assuming guaranteed issue is your only option — see our{" "}
+          Age by itself never automatically points a family toward guaranteed acceptance. A good
+          number of people in their 80s are healthy enough to still clear simplified issue
+          instead — coming in at a gentler price for identical coverage, and with no waiting
+          period standing between your family and the full benefit. Before quietly settling for
+          guaranteed acceptance because it feels like the obvious fit for your age, let your actual
+          health answers be reviewed first. Our{" "}
           <Link href="/final-expense-insurance/biggest-mistakes" className="text-harbor-mid underline">
             rundown of common shopping mistakes
           </Link>{" "}
-          for more on this exact trap.
+          walks through this exact, easy-to-fall-into trap in more depth.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What coverage amount to think about at this stage
+          Thinking through the right coverage amount now
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Priorities often narrow to the essentials at this age — funeral,
-          burial, or cremation costs, and making sure adult children
-          aren&apos;t left covering the balance. If cremation is part of the
-          plan, see{" "}
+          At this stage, most families gently narrow their focus down to what genuinely matters —
+          funeral, burial, or cremation costs, and simply making certain no adult child quietly
+          inherits the leftover balance. If cremation is part of what your family has in mind, our{" "}
           <Link href="/final-expense-insurance/cremation-coverage" className="text-harbor-mid underline">
-            how final expense insurance works alongside cremation
+            guide to how final expense insurance works alongside cremation
           </Link>{" "}
-          for what the benefit does and doesn&apos;t cover.
+          gently explains exactly what the benefit covers, and where its limits sit.
         </p>
 
         <div className="mt-14 text-center">
