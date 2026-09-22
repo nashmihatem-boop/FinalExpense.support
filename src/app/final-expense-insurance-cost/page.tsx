@@ -4,49 +4,49 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance Cost by Coverage Amount",
+  title: "What Does Final Expense Insurance Cost? A Gentle Breakdown",
   description:
-    "A caring, honest walkthrough of what drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up typically cover for a family.",
-  openGraph: { title: "Final Expense Insurance Cost by Coverage Amount", description: "A caring, honest walkthrough of what drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up typically cover for a family." },
+    "A caring walk through what actually shapes your final expense premium, and what different coverage amounts from $5,000 to $40,000+ are typically meant to cover.",
+  openGraph: { title: "What Does Final Expense Insurance Cost? A Gentle Breakdown", description: "A caring walk through what actually shapes your final expense premium, and what different coverage amounts from $5,000 to $40,000+ are typically meant to cover." },
 
-  twitter: { title: "Final Expense Insurance Cost by Coverage Amount", description: "A caring, honest walkthrough of what drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up typically cover for a family." },
+  twitter: { title: "What Does Final Expense Insurance Cost? A Gentle Breakdown", description: "A caring walk through what actually shapes your final expense premium, and what different coverage amounts from $5,000 to $40,000+ are typically meant to cover." },
 };
 
 const COST_TIERS = [
   {
     amount: "$5,000",
     href: "/final-expense-insurance-cost/5000",
-    blurb: "The smallest commonly offered amount — usually a supplement to savings or other coverage, not a standalone funeral budget.",
+    blurb: "The gentlest amount typically offered — more often a supplement sitting alongside other savings than a full funeral budget by itself.",
   },
   {
     amount: "$10,000",
     href: "/final-expense-insurance-cost/10000",
-    blurb: "A common starting point, often sized for a modest cremation or simple service with a little left over.",
+    blurb: "A familiar starting point for many families, often enough for a simple cremation or modest service with a little room to spare.",
   },
   {
     amount: "$15,000",
     href: "/final-expense-insurance-cost/15000",
-    blurb: "A middle step up — room for a fuller service or a modest burial, without a full traditional funeral budget.",
+    blurb: "A caring step up from the basics — space for a fuller service or a modest burial, short of a full traditional funeral budget.",
   },
   {
     amount: "$20,000",
     href: "/final-expense-insurance-cost/20000",
-    blurb: "One of the most commonly chosen amounts — often enough for a traditional funeral and burial plus a cushion.",
+    blurb: "One of the amounts families choose most often — usually enough for a traditional funeral and burial with a gentle cushion left over.",
   },
   {
     amount: "$25,000",
     href: "/final-expense-insurance-cost/25000",
-    blurb: "Beyond the funeral itself, with room for medical bills, debts, or other costs left behind.",
+    blurb: "Reaches past the funeral itself, leaving room for medical bills, remaining debts, or other loose ends your family shouldn't have to absorb.",
   },
   {
     amount: "$30,000",
     href: "/final-expense-insurance-cost/30000",
-    blurb: "A comfortable buffer — a full traditional funeral funded without tight choices, plus a meaningful amount left over.",
+    blurb: "A comfortable cushion tier — a full traditional funeral funded without hard choices, plus something meaningful left behind.",
   },
   {
     amount: "$40,000",
     href: "/final-expense-insurance-cost/40000",
-    blurb: "Near the top of what's typically called final expense — often meant to leave something behind, not just cover a funeral.",
+    blurb: "Near the upper edge of what's usually called final expense — often meant to leave your family something more than just a covered funeral.",
   },
 ];
 
@@ -58,67 +58,64 @@ export default function FinalExpenseInsuranceCostPage() {
           Cost by Coverage Amount
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What does final expense insurance actually cost?
+          What does final expense insurance cost, gently explained?
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          We won&apos;t pretend there&apos;s a single price list to publish
-          here — final expense insurance is underwritten individually, so the
-          only truly accurate number is the one a carrier gives you after a
-          short application. What we can do honestly is walk through what
-          actually moves your premium, and what different coverage amounts
-          are typically meant to cover, so you can pick a target that fits
-          your family before you ever talk to anyone.
+          We won&apos;t pretend there&apos;s a single price we could hand you on this page —
+          every final expense policy is underwritten one person at a time, so the only number
+          that will ever be truly accurate is the one a carrier offers after a short, gentle
+          application. What we can offer honestly instead is a clear picture of what actually
+          shapes that premium, and what each coverage amount tends to be used for, so your family
+          can settle on a target that feels right before anyone picks up the phone.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            Why you won&apos;t find a price on this page
+            Why you won&apos;t see a dollar figure here
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A sample rate would have to assume an age, a gender, a health
-            history, and a state — change any one of those and the real
-            number moves. Publishing a figure that doesn&apos;t apply to you
-            would be more misleading than helpful. If you want to research
-            actual funeral and cremation costs as a starting point,{" "}
+            A believable sample rate would need to assume your age, your gender, your health, and
+            your state all at once — and moving even one of those assumptions changes the real
+            number. Publishing something that doesn&apos;t genuinely apply to your family would
+            do more harm than good. For a starting point on actual funeral and cremation costs,{" "}
             <a href="https://nfda.org" className="text-harbor-mid underline">
               the National Funeral Directors Association
             </a>{" "}
-            publishes national median cost data each year. For what coverage
-            actually costs your family specifically, a free quote is the only
-            number that counts.
+            releases national median figures every year. When it comes to what coverage costs
+            you specifically, though, a free quote is the only number worth trusting.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          What actually drives your premium
+          What gently shapes your premium
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every carrier looks at some version of the same handful of factors.
-          None of them are secret, and none of them depend on which company
-          you end up with:
+          Every carrier is quietly weighing some version of the same short list of factors.
+          There&apos;s nothing hidden about any of them, and none change depending on which
+          company your family ends up choosing:
         </p>
         <CostFactorsGrid />
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Coverage amount is the one factor you control
+          Coverage amount: the one factor that's actually yours to choose
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Age, health, and gender are what they are by the time you apply.
-          Coverage amount is different — it&apos;s a choice you make, and it
-          has a direct, predictable relationship to your premium: more
-          coverage costs more, all else being equal. That makes the real
-          question less &quot;what&apos;s the cheapest policy I can get&quot;
-          and more &quot;what amount actually does right by my family.&quot;
-          The sections below break that down by amount.
+          Your age, health, and gender are simply where they are by the time you sit down to
+          apply — there&apos;s no changing those. Coverage amount is different, though: it&apos;s
+          a decision you get to make, and it moves your premium in a direct, predictable way —
+          more coverage naturally means more cost, everything else being equal. That reframes the
+          real question away from &quot;what&apos;s the cheapest policy available&quot; and
+          toward something gentler: &quot;what amount will actually do right by my family.&quot;
+          The sections ahead walk through that amount by amount.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
           Explore cost by coverage amount
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Each amount below is one of the tiers our own quote process asks
-          about. Pick the one closest to what you have in mind for a closer
-          look at what it&apos;s typically used for.
+          Every amount below is one our own quote process walks families through. Choose whichever
+          feels closest to what you have in mind, and we&apos;ll show you what it&apos;s typically
+          used for.
         </p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {COST_TIERS.map((tier) => (

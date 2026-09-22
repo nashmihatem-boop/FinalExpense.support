@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$15,000 Final Expense Insurance Cost",
+  title: "$15,000 Final Expense Insurance, Gently Explained",
   description:
-    "A caring look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price.",
-  openGraph: { title: "$15,000 Final Expense Insurance Cost", description: "A caring look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price." },
+    "A caring look at why $15,000 sits between the two amounts families search for most, what it covers, and what shapes the price.",
+  openGraph: { title: "$15,000 Final Expense Insurance, Gently Explained", description: "A caring look at why $15,000 sits between the two amounts families search for most, what it covers, and what shapes the price." },
 
-  twitter: { title: "$15,000 Final Expense Insurance Cost", description: "A caring look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price." },
+  twitter: { title: "$15,000 Final Expense Insurance, Gently Explained", description: "A caring look at why $15,000 sits between the two amounts families search for most, what it covers, and what shapes the price." },
 };
 
 export default function FifteenThousandCostPage() {
@@ -20,14 +20,13 @@ export default function FifteenThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $15,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What does $15,000 in final expense coverage cost?
+          $15,000 final expense insurance, gently explained
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $15,000 sits between the two amounts families search for most —
-          $10,000 and $20,000 — and tends to appeal to people who&apos;ve
-          looked at both and want something in the middle. The price itself
-          still depends entirely on you, not a fixed number we can post
-          here.
+          Right between the two amounts families ask about most — $10,000 and $20,000 — sits
+          $15,000, and it tends to draw in the families who&apos;ve weighed both and wanted
+          something gentler in the middle. As with every amount here, the actual premium is worked
+          out around you specifically, not printed on a page.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
@@ -35,59 +34,54 @@ export default function FifteenThousandCostPage() {
             The honest short answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            There&apos;s no fixed price for a $15,000 policy — it&apos;s
-            underwritten per applicant. What we can say is how this amount
-            tends to be used: a step up from the bare minimum, without
-            reaching for a full traditional funeral budget.
+            A $15,000 policy doesn&apos;t come with a fixed price — it&apos;s underwritten around
+            your own situation. What we can share gently is how families tend to use it: a step
+            beyond the bare minimum, without reaching all the way to a full traditional funeral
+            budget.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $15,000 is typically meant to cover
+          What $15,000 tends to cover for your family
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $15,000 generally buys more breathing room than a bare-bones
-          cremation policy — often enough for a fuller service with a
-          viewing beforehand, or a modest burial in a lower-cost area, with a
-          bit left over for smaller bills. It&apos;s a common choice for
-          families who want more than the minimum without paying for
-          coverage sized for a full traditional funeral they don&apos;t
-          necessarily need.
+          Compared to a bare-bones cremation policy, $15,000 usually buys your family real
+          breathing room — often enough for a fuller service that includes a viewing, or a modest
+          burial somewhere with lower costs, with a little left for smaller bills afterward. Many
+          families choose this amount because they want more than the minimum, without paying for
+          coverage sized around a full traditional funeral they may not actually need.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why some families land in between
+          Why some families settle right in the middle
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Not everyone fits neatly into &quot;cremation only&quot; or
-          &quot;full traditional funeral.&quot; Some families want a
-          hybrid — a service or viewing before cremation, say — and some
-          simply want more cushion than the smaller tiers offer without
-          paying for coverage sized for services they don&apos;t plan to
-          use. $15,000 is often the number people settle on after comparing
-          both neighbors directly:{" "}
+          Plenty of families simply don&apos;t picture their loved one&apos;s send-off as purely
+          one thing or the other. Maybe there&apos;s a heartfelt viewing planned before cremation
+          rather than after, or maybe your family just wants a softer landing than the smallest
+          tiers allow, without paying for a service you have no intention of holding. Once
+          families sit{" "}
           <Link href="/final-expense-insurance-cost/10000" className="text-harbor-mid underline">
             $10,000
           </Link>{" "}
-          on one side, and{" "}
+          and{" "}
           <Link href="/final-expense-insurance-cost/20000" className="text-harbor-mid underline">
             $20,000
           </Link>{" "}
-          on the other.
+          next to each other and compare, $15,000 is frequently where they gently land.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $15,000
+          What actually shapes your price at $15,000
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Landing in between doesn&apos;t change what sets your price — the
-          same factors apply at $15,000 as at any other amount:
+          Landing in between two other tiers doesn&apos;t change how your price gets built —
+          it&apos;s the same underlying factors at work here as anywhere else:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Comparing your actual quote at $10,000, $15,000, and $20,000 side
-          by side is often the fastest way to see exactly what the extra
-          coverage costs you month to month.
+          Comparing your own quote at $10,000, $15,000, and $20,000 side by side is often the
+          gentlest way to see exactly what the extra coverage costs your family each month.
         </p>
 
         <div className="mt-14 text-center">
