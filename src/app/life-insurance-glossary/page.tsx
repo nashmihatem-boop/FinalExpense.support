@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Life Insurance Glossary",
+  title: "A Gentle Glossary of Life Insurance Terms",
   description:
-    "Plain-language, caring definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period.",
-  openGraph: { title: "Life Insurance Glossary", description: "Plain-language, caring definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+    "Warm, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period.",
+  openGraph: { title: "A Gentle Glossary of Life Insurance Terms", description: "Warm, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
 
-  twitter: { title: "Life Insurance Glossary", description: "Plain-language, caring definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+  twitter: { title: "A Gentle Glossary of Life Insurance Terms", description: "Warm, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
 };
 
 const TERMS: { term: string; definition: ReactNode }[] = [
@@ -17,9 +17,10 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Beneficiary",
     definition: (
       <>
-        The person, people, or entity you name to receive your policy&apos;s death benefit.
-        Most policies let you name more than one, and you can generally change your beneficiary
-        at any time while the policy is active.
+        Simply put, this is whoever you&apos;d like your death benefit to reach — a spouse, a
+        child, several people at once, or even an organization close to your heart. Families
+        rarely settle on this name once and leave it forever; you&apos;re free to revisit and
+        change it whenever life shifts, for as long as your policy stays active.
       </>
     ),
   },
@@ -27,8 +28,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Death benefit",
     definition: (
       <>
-        The amount of money paid to your beneficiary after you pass away and the claim is
-        approved. This is the core purpose of a life insurance policy.
+        This is the money your family actually receives once a claim has been reviewed and
+        approved after you&apos;ve passed. Everything else about a life insurance policy really
+        exists to support this one promise.
       </>
     ),
   },
@@ -36,8 +38,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Premium",
     definition: (
       <>
-        The payment you make, usually monthly, to keep your policy in force. Miss enough
-        payments and the policy can eventually lapse.
+        Your regular payment, typically monthly, that keeps a policy quietly alive. Let too many
+        of these slip by unpaid, and the coverage itself can eventually come to an end.
       </>
     ),
   },
@@ -45,8 +47,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Face amount",
     definition: (
       <>
-        The stated coverage amount of a policy — the figure used to calculate the death benefit
-        before any early-period adjustments, like a graded or modified payout schedule, apply.
+        The dollar figure written into your policy as the coverage amount — this is what
+        everything else, including any early-period adjustment like a graded or modified
+        schedule, gets calculated from.
       </>
     ),
   },
@@ -54,12 +57,13 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Cash value",
     definition: (
       <>
-        A savings-like component that builds slowly inside a whole life or final expense policy
-        while you&apos;re alive, separate from the death benefit. See our{" "}
+        A gentle, savings-like piece tucked inside whole life and final expense policies, growing
+        slowly while you&apos;re alive and living entirely apart from the death benefit itself.
+        Our{" "}
         <Link href="/cash-value-life-insurance" className="font-semibold text-harbor-mid hover:underline">
-          full explanation of cash value
+          fuller, caring look at cash value
         </Link>{" "}
-        for more.
+        walks through exactly how that works.
       </>
     ),
   },
@@ -67,11 +71,12 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Simplified issue",
     definition: (
       <>
-        An application process with no medical exam — instead, you answer a short list of
-        health questions, and the carrier checks background sources like your prescription
-        history. See how{" "}
+        A path to coverage that skips the medical exam entirely. In its place, you&apos;ll answer
+        a short set of yes-or-no health questions, and the insurer quietly cross-checks things
+        like your prescription history behind the scenes. Curious how this plays out alongside a
+        real health condition? See{" "}
         <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-          simplified issue works with pre-existing conditions
+          our gentle guide to pre-existing conditions
         </Link>
         .
       </>
@@ -81,9 +86,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Guaranteed issue",
     definition: (
       <>
-        Also called guaranteed acceptance. An application process with no health questions and
-        no medical exam — anyone within the eligible age range is accepted, typically in
-        exchange for a waiting period on natural-cause death.
+        Sometimes called guaranteed acceptance instead. Here, there are no health questions and
+        no exam whatsoever — simply fall within the eligible age range, and you&apos;re welcomed
+        in, generally in exchange for a waiting period tied to natural-cause death.
       </>
     ),
   },
@@ -91,11 +96,12 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Level / graded / modified",
     definition: (
       <>
-        The three common payout structures for how much a policy pays if death occurs during
-        its early period. Level pays the full death benefit from day one. Graded pays a
-        partial, increasing amount during the early period. Modified returns paid premiums,
-        often with interest, during that same window. All three pay the full death benefit once
-        the early period has passed.
+        Three gentle ways a payout can be shaped if death occurs early in a policy&apos;s life.
+        With level, your family gets the entire death benefit starting day one. With graded, a
+        partial amount grows a little more each year during that early stretch. With modified,
+        your paid premiums come back instead, often with interest added, during that same window.
+        Once that early stretch has passed, all three quietly convert to paying the full death
+        benefit.
       </>
     ),
   },
@@ -103,9 +109,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Contestability period",
     definition: (
       <>
-        A window, commonly the first two years a policy is in force, during which the insurer
-        can investigate and potentially contest a claim if the application contained a material
-        misrepresentation.
+        A gentle stretch of time, usually the first couple of years a policy exists, during which
+        an insurer holds the right to look closely at, and potentially push back on, a claim if
+        something on the original application wasn&apos;t answered truthfully.
       </>
     ),
   },
@@ -113,8 +119,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Underwriting",
     definition: (
       <>
-        The process a carrier uses to evaluate an applicant — health questions, prescription
-        history, and other checks — to decide whether to issue a policy, and on what terms.
+        The behind-the-scenes review an insurer performs on every applicant — weighing health
+        answers, checking prescription history, and running similar checks — before deciding
+        whether to offer a policy, and exactly what terms to attach to it.
       </>
     ),
   },
@@ -122,9 +129,10 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Look-back period",
     definition: (
       <>
-        How far back a carrier&apos;s health questions reach when asking about a past
-        diagnosis, treatment, or hospitalization. This window varies by carrier and by the
-        specific condition being asked about.
+        How far into your past an insurer&apos;s health questions actually reach when asking
+        about an old diagnosis, treatment, or hospital stay. This stretch of time isn&apos;t
+        universal — it shifts depending on both the insurer and the specific condition being
+        asked about.
       </>
     ),
   },
@@ -132,8 +140,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Free-look period",
     definition: (
       <>
-        A short window after your policy is delivered during which you can cancel it for any
-        reason and receive a full refund of any premiums paid.
+        A brief, no-pressure window right after your policy arrives, during which you&apos;re
+        free to cancel for absolutely any reason and have every premium you&apos;ve paid quietly
+        returned in full.
       </>
     ),
   },
@@ -141,8 +150,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Grace period",
     definition: (
       <>
-        A set stretch of time after a missed premium due date during which your coverage stays
-        in force while you catch up on payment, before the policy lapses.
+        A gentle cushion of extra time following a missed premium due date, during which your
+        coverage stays quietly active while you get caught up — right up until the point a policy
+        would otherwise lapse.
       </>
     ),
   },
@@ -150,8 +160,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Lapse",
     definition: (
       <>
-        What happens when a policy ends because a premium went unpaid, even through the grace
-        period. Once a policy lapses, coverage stops.
+        What happens once a policy finally ends because a premium was never paid, even after the
+        grace period ran out. From that point forward, coverage is simply gone.
       </>
     ),
   },
@@ -162,13 +172,13 @@ export default function LifeInsuranceGlossaryPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Life insurance glossary
+          A gentle glossary of life insurance terms
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense and life insurance come with their own
-          vocabulary. Here&apos;s a caring, plain-language reference for
-          the terms used across this site, so nothing you read here
-          depends on jargon you haven&apos;t seen explained.
+          Insurance has a language all its own, and it&apos;s easy to feel lost in it. We&apos;ve
+          gathered warm, everyday definitions for the words and phrases you&apos;ll bump into
+          across this site, so you&apos;re never left guessing at a term nobody bothered to
+          explain first.
         </p>
 
         <dl className="mt-10 divide-y divide-mist border-t border-mist">

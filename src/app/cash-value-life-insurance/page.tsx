@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is Cash Value in Life Insurance?",
+  title: "Cash Value, Gently Explained for Your Family",
   description:
-    "A caring look at how cash value builds inside a whole life or final expense policy, who it belongs to, and how it's different from the death benefit.",
-  openGraph: { title: "What Is Cash Value in Life Insurance?", description: "A caring look at how cash value builds inside a whole life or final expense policy, who it belongs to, and how it's different from the death benefit." },
+    "A caring explanation of how cash value quietly builds inside a whole life or final expense policy, who it belongs to, and how it differs from the death benefit.",
+  openGraph: { title: "Cash Value, Gently Explained for Your Family", description: "A caring explanation of how cash value quietly builds inside a whole life or final expense policy, who it belongs to, and how it differs from the death benefit." },
 
-  twitter: { title: "What Is Cash Value in Life Insurance?", description: "A caring look at how cash value builds inside a whole life or final expense policy, who it belongs to, and how it's different from the death benefit." },
+  twitter: { title: "Cash Value, Gently Explained for Your Family", description: "A caring explanation of how cash value quietly builds inside a whole life or final expense policy, who it belongs to, and how it differs from the death benefit." },
 };
 
 export default function CashValueLifeInsurancePage() {
@@ -15,70 +15,60 @@ export default function CashValueLifeInsurancePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is cash value in a life insurance policy?
+          Cash value, gently explained for your family
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Cash value is one of the more misunderstood features of a whole
-          life or final expense policy — mixed up, understandably, with the
-          death benefit itself. They&apos;re related, but they&apos;re not
-          the same thing.
+          Few parts of a whole life or final expense policy cause as much quiet confusion as cash
+          value, since it&apos;s so easily mixed up with the death benefit itself. The two are
+          related, but they play genuinely different roles.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Cash value vs. the death benefit
+          Two different things living in one policy
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The death benefit is the amount your beneficiary receives when
-          you pass away — that&apos;s the core purpose of the policy. Cash
-          value is a separate, internal component that only exists in
-          whole life-style policies, final expense insurance included, and
-          that you, the policyholder, can potentially access while
-          you&apos;re still alive. Term life insurance, by contrast,
-          generally doesn&apos;t build any cash value at all — it&apos;s
-          coverage for a set period with no savings-like component
+          Think of the death benefit as the whole reason the policy exists — it&apos;s what your
+          family receives after you&apos;re gone. Cash value sits alongside that, as a completely
+          separate feature found only in whole life-style coverage, final expense insurance
+          included, one that you as the policyholder can potentially tap into while you&apos;re
+          still here. Term life insurance simply doesn&apos;t carry this feature at all — it
+          protects you for a set window of time, nothing more, with no savings-like piece
           attached.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How it builds
+          How it quietly grows over time
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Cash value starts at or near zero and grows slowly, year over
-          year, as a small portion of each premium payment is set aside
-          and credited to it. It&apos;s a gradual mechanism by design, not
-          a fast-growing account — the early years typically add up
-          slowly, with the balance building more noticeably over a longer
-          stretch of time. Exactly how it grows depends on the specific
-          policy&apos;s terms.
+          Cash value begins near zero and builds gradually, year after year, as a small sliver of
+          every premium payment gets credited toward it. This is deliberately slow by design,
+          never a fast-growing account — the earliest years add up gently, with real momentum
+          only showing up over a longer stretch of time. The precise pace depends entirely on your
+          specific policy&apos;s own terms.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What you can do with it while you&apos;re alive
+          What you can gently do with it while you&apos;re living
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because cash value belongs to you as the policyholder, it&apos;s
-          generally something you can access while the policy is in force
-          — commonly by borrowing against it, and in some cases using it
-          to help cover a premium payment if needed. The specifics of how
-          borrowing against a policy works, and what it means for your
-          coverage afterward, are worth understanding in detail before you
-          rely on it, and an agent can walk through exactly how it would
-          work on your policy.
+          Since this cash value genuinely belongs to you, it&apos;s generally yours to access
+          while the policy remains active — most often through borrowing against it, and
+          sometimes even using it to help carry a premium payment if a gap ever comes up. The fine
+          print around borrowing against a policy, and what it means for your coverage
+          afterward, is worth understanding closely before you lean on it; an agent can walk you
+          through exactly how it would play out for your own policy.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What happens to it when you pass away
+          What happens to it once you&apos;re gone
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This is the part that trips families up: in most standard cash
-          value policies, what&apos;s paid to your beneficiary is the
-          policy&apos;s stated death benefit — not the death benefit plus
-          whatever cash value had built up on top of it. Cash value is a
-          living benefit, meant to be used or accessed while you&apos;re
-          alive, rather than an extra sum stacked onto the payout after
-          you&apos;re gone. It&apos;s a different concept from the death
-          benefit, serving a different purpose, even though both live
-          inside the same policy.
+          Here&apos;s the part that quietly surprises people: with most standard cash value
+          policies, your beneficiary simply receives the stated death benefit — not that death
+          benefit plus whatever cash value happened to build up alongside it. Cash value is meant
+          to be a living benefit, something to use or lean on while you&apos;re alive, rather than
+          an extra sum tacked onto the payout afterward. It serves its own distinct purpose,
+          separate from the death benefit, even though both quietly live inside the same policy.
         </p>
 
         <div className="mt-14 text-center">
