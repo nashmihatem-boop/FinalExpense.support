@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* FinalExpense.support palette: calm teal/blue, distinct from the sibling .care/.Contact/.Pro
+   sites. Every text/button pairing below is checked against WCAG AA (4.5:1 for body text and
+   links, 3:1 for large/decorative text and graphical icons) — see the primary button
+   (harbor-deep text on brass) and inline links (harbor-mid on canvas) in particular. */
+:root {
+  --color-harbor: #0e5265;
+  --color-harbor-mid: #0c7a91;
+  --color-harbor-deep: #082f3a;
+  --color-canvas: #ffffff;
+  --color-canvas-alt: #eaf6f7;
+  --color-canvas-raised: #ffffff;
+  --color-brass: #c99423;
+  --color-brass-dark: #96700f;
+  --color-sage: #7fcbb0;
+  --color-sage-dark: #2f6f55;
+  --color-charcoal: #2c4a4f;
+  --color-mist: #d7ebee;
+  --color-clay: #b3402a;
+}
+
+@theme inline {
+  --color-harbor: var(--color-harbor);
+  --color-harbor-mid: var(--color-harbor-mid);
+  --color-harbor-deep: var(--color-harbor-deep);
+  --color-canvas: var(--color-canvas);
+  --color-canvas-alt: var(--color-canvas-alt);
+  --color-canvas-raised: var(--color-canvas-raised);
+  --color-brass: var(--color-brass);
+  --color-brass-dark: var(--color-brass-dark);
+  --color-sage: var(--color-sage);
+  --color-sage-dark: var(--color-sage-dark);
+  --color-charcoal: var(--color-charcoal);
+  --color-mist: var(--color-mist);
+  --color-clay: var(--color-clay);
+
+  --font-display: var(--font-inter);
+  --font-sans: var(--font-inter);
+
+  --animate-rise: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-charcoal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-harbor-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brass-dark);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
