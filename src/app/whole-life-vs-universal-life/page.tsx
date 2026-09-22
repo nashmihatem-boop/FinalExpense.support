@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Whole Life vs. Universal Life Insurance",
+  title: "Whole Life vs. Universal Life, Explained with Care",
   description:
-    "A caring, plain-language comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense insurance fits for your family.",
-  openGraph: { title: "Whole Life vs. Universal Life Insurance", description: "A caring, plain-language comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense insurance fits for your family." },
+    "A gentle comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense coverage fits.",
+  openGraph: { title: "Whole Life vs. Universal Life, Explained with Care", description: "A gentle comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense coverage fits." },
 
-  twitter: { title: "Whole Life vs. Universal Life Insurance", description: "A caring, plain-language comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense insurance fits for your family." },
+  twitter: { title: "Whole Life vs. Universal Life, Explained with Care", description: "A gentle comparison of whole life and universal life insurance — fixed guarantees versus flexible premiums — and where final expense coverage fits." },
 };
 
 export default function WholeLifeVsUniversalLifePage() {
@@ -19,74 +19,60 @@ export default function WholeLifeVsUniversalLifePage() {
           Whole life vs. universal life insurance
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Whole life and universal life are both types of permanent life
-          insurance — coverage meant to stay with your family your entire
-          life rather than a fixed number of years, unlike term insurance.
-          But they manage premiums, cash value, and risk in genuinely
-          different ways, and the difference matters when you&apos;re
-          deciding which one actually fits your family&apos;s situation.
+          Whole life and universal life both belong to the permanent side of life insurance —
+          coverage meant to last your entire life rather than a fixed stretch of years, unlike term
+          insurance. Underneath that similarity, though, they handle premiums, cash value, and risk
+          in genuinely different ways, and that difference matters once you&apos;re deciding what
+          actually fits your family.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Whole life: fixed and guaranteed
+          Whole life: built around certainty
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Whole life insurance is built around certainty. Your premium is
-          set when the policy is issued and doesn&apos;t increase for as
-          long as you own the policy. The death benefit is guaranteed at
-          a fixed amount, and the policy&apos;s cash value grows on a
-          defined, guaranteed schedule rather than fluctuating with
-          market or investment performance. Nothing about a whole life
-          policy is designed to surprise your family later — what
-          you&apos;re quoted at the start is, contractually, what they
-          keep.
+          Whole life insurance leans entirely on certainty. The premium you&apos;re quoted at issue
+          stays exactly the same for as long as you own the policy. The death benefit is guaranteed
+          at a fixed amount, and cash value grows on a defined, guaranteed schedule rather than
+          rising and falling with markets or investment performance. Nothing here is designed to
+          surprise you down the road — what you&apos;re quoted at the start is, by contract, what
+          you keep.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Universal life: flexible, with more moving parts
+          Universal life: more flexible, more to watch
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Universal life insurance trades some of that certainty for
-          flexibility. Many universal life policies let you adjust your
-          premium payments within limits, and sometimes adjust the death
-          benefit as well, as your family&apos;s needs change over time.
-          The cash value typically grows based on interest crediting that
-          can vary — depending on the specific policy, that might be tied
-          to a minimum guaranteed rate, current interest rates, or the
-          performance of an underlying index. That flexibility can be
-          genuinely useful, but it comes with more to manage: if premium
-          payments are reduced too far or cash value performance is weak,
-          the policy can lose value or, in some cases, lapse — something
-          a properly funded whole life policy isn&apos;t exposed to in
-          the same way.
+          Universal life trades away some of that certainty in exchange for flexibility. Many
+          policies let you adjust premium payments within set limits, and sometimes adjust the death
+          benefit too, as your needs shift over the years. Cash value growth typically depends on
+          interest crediting that can vary — tied, depending on the policy, to a guaranteed minimum
+          rate, current interest rates, or the performance of an underlying index. That flexibility
+          can genuinely help, but it also asks more of you: reduce payments too far, or let cash
+          value performance lag, and the policy can lose value or even lapse — something a properly
+          funded whole life policy simply isn&apos;t exposed to.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The core tradeoff
+          The real tradeoff underneath it all
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The choice largely comes down to certainty versus flexibility.
-          Whole life suits families who want a fixed premium and a
-          guaranteed outcome they never have to monitor. Universal life
-          suits people who want room to adjust payments over time and are
-          comfortable keeping an eye on how the policy is performing,
-          since flexibility on the way in can mean more responsibility
-          along the way. Neither structure is better in the abstract —
-          they&apos;re built for different priorities.
+          At its core, this choice comes down to certainty versus flexibility. Whole life fits
+          people who want a fixed premium and a guaranteed outcome they never have to keep checking
+          on. Universal life fits people who want room to adjust payments as life changes, and who
+          don&apos;t mind keeping an eye on how the policy is actually performing — since
+          flexibility going in tends to mean more responsibility along the way. Neither one is
+          better in the abstract; they&apos;re simply built for different priorities.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where final expense insurance fits
+          Where final expense insurance quietly fits
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance is a type of whole life insurance, not
-          universal life. That&apos;s a deliberate design choice, not an
-          incidental detail: a policy meant to care for end-of-life costs
-          is built around a fixed premium that won&apos;t increase as you
-          age and a guaranteed death benefit your family can count on,
-          without the ongoing management a universal life policy can
-          require. For more on how permanent coverage works generally,
-          see{" "}
+          Final expense insurance is built as a type of whole life insurance, not universal life —
+          and that&apos;s a deliberate choice, not an afterthought. Coverage meant for end-of-life
+          costs is built around a fixed premium that never climbs as you age, and a guaranteed death
+          benefit your family can lean on, without any of the ongoing management a universal life
+          policy can demand. For more on how permanent coverage works in general, see{" "}
           <Link href="/what-is-whole-life-insurance" className="font-semibold text-harbor-mid hover:underline">
             what is whole life insurance
           </Link>

@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Does a Funeral Director Do?",
+  title: "What a Funeral Director Actually Does for Your Family",
   description:
-    "A caring, respectful look at the role a funeral director actually plays — coordinating logistics, handling permits and paperwork, preparing your loved one, and guiding a grieving family.",
-  openGraph: { title: "What Does a Funeral Director Do?", description: "A caring, respectful look at the role a funeral director actually plays — coordinating logistics, handling permits and paperwork, preparing your loved one, and guiding a grieving family." },
+    "A caring look at the real role a funeral director plays — handling logistics and paperwork, preparing your loved one, and gently guiding a grieving family.",
+  openGraph: { title: "What a Funeral Director Actually Does for Your Family", description: "A caring look at the real role a funeral director plays — handling logistics and paperwork, preparing your loved one, and gently guiding a grieving family." },
 
-  twitter: { title: "What Does a Funeral Director Do?", description: "A caring, respectful look at the role a funeral director actually plays — coordinating logistics, handling permits and paperwork, preparing your loved one, and guiding a grieving family." },
+  twitter: { title: "What a Funeral Director Actually Does for Your Family", description: "A caring look at the real role a funeral director plays — handling logistics and paperwork, preparing your loved one, and gently guiding a grieving family." },
 };
 
 export default function WhatDoesAFuneralDirectorDoPage() {
@@ -15,79 +15,65 @@ export default function WhatDoesAFuneralDirectorDoPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What does a funeral director do?
+          What a funeral director actually does for your family
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          When someone dies, a funeral director becomes one of the main
-          points of contact for a family that&apos;s often exhausted,
-          grieving, and unsure what happens next. Their role goes well
-          beyond running a service — it&apos;s a mix of logistics,
-          paperwork, technical care, and steady, gentle guidance at a time
-          when a family has very little left to give any of it.
+          When someone dies, a funeral director quickly becomes one of the first people a grieving,
+          exhausted family leans on. The role reaches well past simply running a service —
+          it&apos;s logistics, paperwork, technical care, and steady guidance, all at once, exactly
+          when a family has the least energy to handle any of it alone.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Coordinating the logistics
+          Quietly handling the logistics
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A funeral director manages the practical machinery behind a
-          service that a family rarely sees in full — transporting your
-          loved one, coordinating with the cemetery or crematory,
-          scheduling the service and any visitation, arranging clergy or
-          officiants if requested, and making sure everyone and
-          everything is in the right place at the right time. Much of
-          this happens on a tight timeline, and it&apos;s coordinated so
-          the family doesn&apos;t have to manage the moving pieces
-          themselves while they&apos;re grieving.
+          Behind a service a family sees only a small piece of, a funeral director is managing
+          transportation of the deceased, coordinating with the cemetery or crematory, scheduling
+          the service and any visitation, and arranging clergy or officiants if asked. Much of it
+          comes together on a tight timeline, carried by someone else, so a grieving family
+          isn&apos;t the one juggling the moving pieces.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Handling permits and paperwork
+          Carrying the permits and paperwork
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Death comes with a surprising amount of official paperwork, and
-          a funeral director typically handles most of it. That includes
-          filing for the death certificate, securing permits required for
-          burial or cremation, and often helping the family understand
-          next steps for things like notifying Social Security or filing
-          a life insurance claim. Few families know this process in
-          advance, which is exactly why having someone who handles it
-          routinely, with care, matters so much.
+          Death brings a surprising wall of official paperwork with it, and a funeral director
+          typically carries most of that weight — filing for the death certificate, securing
+          permits for burial or cremation, and often walking a family through next steps like
+          notifying Social Security or starting a life insurance claim. Most families have never
+          touched this process before, which is exactly why having someone who handles it every day
+          matters so much.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Caring for your loved one
+          Caring for your loved one directly
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Funeral directors are trained to care for the deceased with a
-          level of technical skill and dignity most families never have
-          to think about until they need it — whether that means
-          embalming and preparation for a viewing, or simpler preparation
-          ahead of a direct cremation or burial. The specific steps
-          depend heavily on what the family has chosen, but the
-          underlying standard stays the same: treating your loved one
-          with the same respect your family would want.
+          With real technical skill and genuine dignity, a funeral director cares for the person
+          who died in ways most families never think about until it&apos;s needed — embalming and
+          preparation ahead of a viewing, or something simpler ahead of a direct cremation or
+          burial. The exact steps shift depending on what the family has chosen, but the underlying
+          care given stays the same either way.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Guiding the family through decisions
+          Gently guiding hard decisions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Perhaps the least visible part of the job is the most human
-          one. A funeral director walks a family through decisions many
-          of them have never had to make before — what kind of service,
-          if any; burial or cremation; what to include and what to skip —
-          while being mindful that they&apos;re talking to people who are
-          grieving, not shopping. A good funeral director explains the
-          options clearly, answers questions honestly, and never
-          pressures a family toward more than they actually want.
+          The quietest part of the job may be the most human one. A funeral director walks a family
+          through choices most of them have never faced before — what kind of service, if any;
+          burial or cremation; what to include and what simply isn&apos;t needed — all while
+          staying aware they&apos;re speaking with people who are grieving, not shopping. A good one
+          lays out the options honestly and never pushes a family toward more than they actually
+          want.
         </p>
 
         <p className="mt-8 text-base leading-relaxed text-charcoal/80">
-          Every one of those decisions has a cost attached. Having a
-          policy already in place — with someone you trust able to pay
-          the funeral home directly, on your family&apos;s own timeline —
-          is one less thing to figure out in the middle of it all.
+          Every one of those decisions carries a cost. Having coverage already in place — with a
+          beneficiary ready to pay the funeral home directly, on your family&apos;s own timeline —
+          quietly removes one more thing to figure out in the middle of it all.
         </p>
 
         <div className="mt-14 text-center">

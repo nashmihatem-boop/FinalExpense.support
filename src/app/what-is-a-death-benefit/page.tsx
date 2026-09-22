@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is a Death Benefit?",
+  title: "What Is a Death Benefit? A Gentle Explanation",
   description:
-    "A caring look at what a life insurance death benefit is, how it's paid to your family, whether it's taxable, and what it can actually be used for.",
-  openGraph: { title: "What Is a Death Benefit?", description: "A caring look at what a life insurance death benefit is, how it's paid to your family, whether it's taxable, and what it can actually be used for." },
+    "What a death benefit actually is, how it reaches your family, whether it's taxed, and what it can genuinely be used for.",
+  openGraph: { title: "What Is a Death Benefit? A Gentle Explanation", description: "What a death benefit actually is, how it reaches your family, whether it's taxed, and what it can genuinely be used for." },
 
-  twitter: { title: "What Is a Death Benefit?", description: "A caring look at what a life insurance death benefit is, how it's paid to your family, whether it's taxable, and what it can actually be used for." },
+  twitter: { title: "What Is a Death Benefit? A Gentle Explanation", description: "What a death benefit actually is, how it reaches your family, whether it's taxed, and what it can genuinely be used for." },
 };
 
 export default function WhatIsADeathBenefitPage() {
@@ -19,72 +19,61 @@ export default function WhatIsADeathBenefitPage() {
           What is a death benefit?
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A death benefit is the amount a life insurance company pays to
-          your named beneficiary after you pass away. It&apos;s the
-          entire purpose of a life insurance policy — everything else
-          about the policy exists to define when, how much, and under
-          what conditions this care actually reaches your family.
+          A death benefit is simply the amount your life insurance company pays to your named
+          beneficiary once you&apos;ve passed away. It&apos;s really the whole reason a policy
+          exists — every other detail in the contract is just defining when, how much, and under
+          what conditions this one payment happens.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How a death benefit is paid
+          How the payment actually reaches your family
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most death benefits are paid as a single lump sum, sent
-          directly to the beneficiary once the claim is filed and
-          approved. Some policies also offer alternative payout
-          structures — installments paid out over a set period instead
-          of all at once, for example — though a lump sum remains the
-          most common and straightforward option, and the one most final
-          expense policies are built around.
+          Most of the time, a death benefit arrives as one single lump sum, sent straight to the
+          beneficiary once a claim has been filed and approved. A handful of policies offer other
+          structures too — spreading payments out as installments over time, for instance — but a
+          lump sum stays the simplest, most common choice, and it&apos;s what most final expense
+          policies are quietly built around.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Is a death benefit taxable?
+          Is any of it taxed?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Generally, no — life insurance death benefits are typically
-          received income-tax-free by the beneficiary. This is one of the
-          more consistent, reassuring features of life insurance as a
-          way to care for your family. That said, tax situations can get
-          more complex depending on how a policy is owned or structured,
-          and specific circumstances vary, so it&apos;s worth confirming
-          your particular situation with a tax professional rather than
-          assuming every scenario works identically.
+          Generally, no — a beneficiary typically receives a life insurance death benefit
+          completely free of income tax. It&apos;s genuinely one of the more dependable features of
+          the product. That said, ownership structure and specific circumstances can occasionally
+          complicate things, so it&apos;s worth double-checking your own situation with a tax
+          professional instead of assuming every case plays out the same way.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What the money can actually be used for
+          What the money is actually allowed to cover
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A death benefit isn&apos;t restricted to any specific purpose.
-          Unlike a prepaid funeral plan, which is generally locked into
-          services from a specific funeral provider, a life insurance
-          death benefit is paid directly to your beneficiary as cash,
-          with no requirement about how it&apos;s spent. Many families do
-          use it to cover a funeral or burial, but it can just as easily
-          go toward medical bills, everyday living expenses, debt, or
-          anything else the family needs at the time.
+          There&apos;s no restriction tied to a death benefit at all. Unlike a prepaid funeral plan,
+          which usually locks you into services from one specific provider, this money reaches your
+          beneficiary as plain cash, free to use however it&apos;s needed. Plenty of families do
+          put it toward a funeral, but it works just as well for medical bills, everyday costs,
+          debt, or anything else that comes up in that moment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How the amount is decided
+          How the amount itself gets decided
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The death benefit amount isn&apos;t set by the insurance
-          company — it&apos;s chosen by you at the time of purchase,
-          based on what you&apos;re trying to cover for your family. For
-          a policy meant to handle end-of-life costs specifically,
-          that&apos;s usually a more modest amount than a policy meant to
-          replace years of income. See{" "}
+          The insurance company doesn&apos;t set your death benefit — you do, when you first apply,
+          based on what you&apos;re actually trying to cover. A policy meant purely for end-of-life
+          costs usually calls for a far more modest amount than one meant to replace years of
+          missing income. Take a look at{" "}
           <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
             how final expense insurance works
           </Link>{" "}
-          for more on choosing a coverage amount, and{" "}
+          to think through your own coverage amount, and{" "}
           <Link href="/what-is-a-beneficiary" className="font-semibold text-harbor-mid hover:underline">
             what is a beneficiary
           </Link>{" "}
-          for who can actually receive this payment.
+          for who&apos;s actually able to receive this payment.
         </p>
 
         <div className="mt-14 text-center">
