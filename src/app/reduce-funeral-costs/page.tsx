@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How to Reduce Funeral Costs",
+  title: "Gentle Ways to Reduce Funeral Costs",
   description:
-    "Caring, practical ways to reduce funeral costs for your family — from knowing your rights under the FTC Funeral Rule to considering direct burial — and why coverage still matters even with a simple plan.",
-  openGraph: { title: "How to Reduce Funeral Costs", description: "Caring, practical ways to reduce funeral costs for your family — from knowing your rights under the FTC Funeral Rule to considering direct burial — and why coverage still matters even with a simple plan." },
+    "A caring, practical guide to lowering funeral costs — your rights under the FTC Funeral Rule, simpler service options, and veteran benefits worth checking.",
+  openGraph: { title: "Gentle Ways to Reduce Funeral Costs", description: "A caring, practical guide to lowering funeral costs — your rights under the FTC Funeral Rule, simpler service options, and veteran benefits worth checking." },
 
-  twitter: { title: "How to Reduce Funeral Costs", description: "Caring, practical ways to reduce funeral costs for your family — from knowing your rights under the FTC Funeral Rule to considering direct burial — and why coverage still matters even with a simple plan." },
+  twitter: { title: "Gentle Ways to Reduce Funeral Costs", description: "A caring, practical guide to lowering funeral costs — your rights under the FTC Funeral Rule, simpler service options, and veteran benefits worth checking." },
 };
 
 export default function ReduceFuneralCostsPage() {
@@ -16,118 +16,67 @@ export default function ReduceFuneralCostsPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to reduce funeral costs
+          Gentle ways to reduce funeral costs
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Funeral costs aren&apos;t fixed, and families have more say over
-          them than most people realize going in. A few gentle, practical
-          steps — most of them about asking the right questions rather
-          than cutting corners on a goodbye — can make a meaningful
-          difference for the people left to handle the arrangements.
+          A meaningful goodbye doesn&apos;t have to come with an overwhelming bill. A few
+          practical choices, made calmly and with the right information in hand, can quietly bring
+          the total down without asking anyone to compromise on saying a proper farewell.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Compare providers, and know your rights
+          You have real rights here, protected by federal law
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Funeral homes are required under the FTC Funeral Rule, a
-          federal consumer protection regulation, to give you an
-          itemized, written price list — called a General Price List —
-          and to let you choose only the specific goods and services you
-          actually want, rather than requiring a bundled package. Not
-          every provider prices things the same way, and your family is
-          entitled to that price list before committing to anything.
-          Calling more than one funeral home and comparing their written
-          price lists side by side is one of the simplest ways to avoid
-          paying for more than you need, at a time when it&apos;s hard to
-          think clearly about cost at all.
+          The FTC&apos;s Funeral Rule quietly protects you at every funeral home in the country.
+          You&apos;re entitled to an itemized General Price List before agreeing to anything, and
+          you&apos;re free to select only the specific items and services you actually want —
+          nothing bundles you into paying for things you didn&apos;t ask for. If you bring your own
+          casket or urn from an outside source, the home isn&apos;t allowed to charge you a
+          handling fee for it either.
         </p>
 
-        <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            What the FTC Funeral Rule guarantees your family
-          </p>
-          <ul className="mt-3 space-y-2 text-sm leading-relaxed text-charcoal/75">
-            <li>• A written, itemized price list before you agree to anything</li>
-            <li>• The right to buy only the specific goods and services you want</li>
-            <li>• The right to provide your own casket or urn without a handling fee</li>
-          </ul>
-        </div>
-
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Consider direct cremation or direct burial
+          The single biggest lever: choosing a simpler kind of service
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Skipping embalming and a formal viewing — through direct
-          cremation or{" "}
+          Nothing moves the total more than the choice between a traditional funeral and something
+          simpler like{" "}
           <Link href="/traditional-funeral-vs-direct-burial" className="font-semibold text-harbor-mid hover:underline">
-            direct burial
-          </Link>{" "}
-          — removes several of the costliest steps in a traditional
-          funeral, while still leaving room for the family to hold a
-          separate memorial or celebration of life afterward, on their
-          own timeline. For families focused on keeping costs manageable
-          without giving up a meaningful goodbye, this is often the
-          single biggest, gentlest lever available.
+            direct cremation or direct burial
+          </Link>
+          . Skipping embalming, a viewing, and an elaborate service removes a large share of the
+          cost on its own, while still leaving plenty of room for a heartfelt memorial afterward, on
+          your own terms and timeline.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Buy a casket from a third party
+          A few more gentle ways to bring the number down
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Under the same FTC Funeral Rule, a funeral home is required to
-          accept a casket you purchase from an outside seller and
-          can&apos;t charge you an extra handling fee for using one.
-          Caskets purchased directly from a third party are often priced
-          differently than what a funeral home offers on-site, so
-          it&apos;s worth asking whether this option makes sense for your
-          family before defaulting to whatever the funeral home has on
-          the floor.
-        </p>
-
-        <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Consider a simpler service, and celebrate separately
-        </h2>
-        <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A large, formal service isn&apos;t the only way to honor
-          someone you love. A smaller, simpler service — or none at all
-          at the time of burial — paired with a separate celebration of
-          life planned later, with more time and less pressure, can
-          meaningfully reduce cost without reducing how meaningful the
-          send-off feels to the people who gather for it.
-        </p>
-
-        <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Ask about veteran burial benefits
-        </h2>
-        <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If the person who died served in the military, they — and
-          often their spouse — may be eligible for federal burial
-          benefits that can offset part of the cost, regardless of which
-          state they lived in. Eligibility and specifics vary, so
-          it&apos;s worth asking directly; our{" "}
+          A casket bought from a third-party retailer, rather than through the funeral home
+          itself, is often meaningfully cheaper for the exact same product. Many families also opt
+          for a simple, smaller gathering now, then hold a fuller celebration of life later on —
+          separating the practical, time-sensitive tasks from the emotional gathering everyone
+          actually wants to be part of. If your loved one served in the military, it&apos;s worth
+          checking the veteran burial benefits available in{" "}
           <Link href="/coverage-by-state" className="font-semibold text-harbor-mid hover:underline">
-            state-by-state coverage guide
-          </Link>{" "}
-          includes what to look for.
+            your state
+          </Link>
+          , which can quietly cover a meaningful share of the cost.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why final expense insurance still matters, even with a simple plan
+          Why coverage still matters, even with a simpler plan
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          None of this planning eliminates cost entirely, and it
-          doesn&apos;t account for everything else that tends to show up
-          around a death — from final medical bills to the other costs
-          most families don&apos;t plan for in advance. Even a modest,
-          carefully planned service can be paired with unexpected
-          expenses, which is exactly the gap a final expense policy is
-          built to cover: cash paid directly to your family, usable for
-          whatever actually comes up. See{" "}
+          Even the leanest, most carefully planned service comes with{" "}
           <Link href="/hidden-costs-of-dying" className="font-semibold text-harbor-mid hover:underline">
-            the hidden costs of dying
+            costs that show up quietly
           </Link>{" "}
-          for the full picture.
+          beyond the funeral home&apos;s own bill. A modest final expense policy is there to gently
+          absorb whatever remains, so your family is never left figuring out how to pay for a
+          goodbye on short notice.
         </p>
 
         <div className="mt-14 text-center">

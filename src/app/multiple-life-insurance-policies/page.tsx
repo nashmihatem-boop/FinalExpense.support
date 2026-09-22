@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Can You Have More Than One Life Insurance Policy?",
   description:
-    "Yes — a caring look at how holding multiple life insurance policies actually works, why families do it, and when it can draw extra underwriting attention.",
-  openGraph: { title: "Can You Have More Than One Life Insurance Policy?", description: "Yes — a caring look at how holding multiple life insurance policies actually works, why families do it, and when it can draw extra underwriting attention." },
+    "Yes — and many families do, for good reason. A gentle look at why people carry more than one policy and how to know if adding another makes sense.",
+  openGraph: { title: "Can You Have More Than One Life Insurance Policy?", description: "Yes — and many families do, for good reason. A gentle look at why people carry more than one policy and how to know if adding another makes sense." },
 
-  twitter: { title: "Can You Have More Than One Life Insurance Policy?", description: "Yes — a caring look at how holding multiple life insurance policies actually works, why families do it, and when it can draw extra underwriting attention." },
+  twitter: { title: "Can You Have More Than One Life Insurance Policy?", description: "Yes — and many families do, for good reason. A gentle look at why people carry more than one policy and how to know if adding another makes sense." },
 };
 
 export default function MultipleLifeInsurancePoliciesPage() {
@@ -19,85 +19,47 @@ export default function MultipleLifeInsurancePoliciesPage() {
           Can you have more than one life insurance policy?
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Yes. There&apos;s no rule against caring for your family with
-          more than one life insurance policy at the same time, and
-          plenty of families do — often without realizing it&apos;s even
-          a question worth asking until they&apos;re looking at two
-          separate policies and wondering if that&apos;s allowed.
+          You genuinely can, and a lot of families quietly do — often without even thinking of it
+          as &quot;doubling up.&quot; It usually comes from two different needs showing up at
+          different points in life, each one asking for its own kind of coverage.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why families end up with more than one policy
+          Why two policies so often make more sense than one
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The most common version is simple: someone bought a larger term
-          policy years ago to replace income while raising a family or
-          paying off a mortgage, and later adds a separate final expense
-          policy specifically set aside for end-of-life costs. The two
-          serve different purposes even though they&apos;re both
-          &quot;life insurance&quot; — one replaces income for the people
-          who depend on it, the other makes sure funeral and final costs
-          don&apos;t become a burden or get tangled up with a larger
-          policy meant for something else entirely.
+          Picture someone who bought a large term policy years ago to replace their income for a
+          young family — that was never really meant to cover funeral costs specifically, it was
+          protecting a paycheck. Later in life, a smaller final expense policy gets added
+          alongside it, aimed squarely at burial costs and other end-of-life bills. Neither policy
+          is doing the other&apos;s job; together they quietly cover both.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Do insurers actually allow this?
+          Insurers are genuinely fine with this
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Yes — each policy is its own contract with its own insurer, its
-          own premium, and its own beneficiary designation, and carriers
-          don&apos;t prohibit you from holding more than one. You&apos;re
-          not required to unwind a decades-old term policy to qualify for
-          a new, unrelated final expense application, though most
-          applications will ask about your existing coverage as a
-          standard question.
+          Each policy you hold is its own separate contract, with its own insurer, its own premium,
+          and its own beneficiary designation — nothing about holding one limits your ability to
+          hold another. Insurance companies don&apos;t typically restrict how many policies a
+          person carries. What they do watch closely is the total amount of coverage in force
+          across everything you hold, and extra scrutiny there tends to only kick in at very large
+          combined totals — well above what a typical final expense policy involves.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          When it can draw extra scrutiny
+          Gently deciding whether another policy makes sense for you
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The one place multiple policies can complicate things is at the
-          high end. Very large total coverage amounts across all of your
-          policies combined can draw extra underwriting attention on a
-          new application, since insurers are generally checking that the
-          total amount of coverage in place makes sense relative to
-          income, assets, or the purpose of the policy — a safeguard
-          against a policy being used for something other than caring for
-          a family. For the modest coverage amounts typical of a final
-          expense policy stacked on top of an existing policy, this is
-          rarely a practical concern, but it&apos;s worth knowing the
-          guardrail exists.
-        </p>
-
-        <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">In short</p>
-          <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Holding a modest final expense policy alongside an existing
-            policy is routine and rarely a problem. It&apos;s the total
-            across everything you own, not the number of policies itself,
-            that occasionally draws a closer look.
-          </p>
-        </div>
-
-        <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Deciding if an additional policy makes sense for your family
-        </h2>
-        <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The most useful question isn&apos;t &quot;how many policies is
-          too many&quot; — it&apos;s whether your existing coverage
-          actually does the job a final expense policy is built for. A
-          large term policy that will expire in a few years, or one your
-          family is counting on to replace income, isn&apos;t really set
-          aside for funeral and final costs even if it&apos;s technically
-          large enough on paper. A dedicated final expense policy closes
-          that specific gap without touching what your other coverage is
-          meant to do for your family. See{" "}
+          The honest question worth sitting with is simple: does anything you already have
+          actually cover final expenses, or is it earmarked for something else entirely? A term
+          policy nearing its end date, for instance, was likely never intended for burial costs in
+          the first place — and once it lapses, that gap in coverage doesn&apos;t close itself. A{" "}
           <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
-            how final expense insurance works
+            dedicated final expense policy
           </Link>{" "}
-          for more.
+          fills that specific gap, quietly and directly, without asking you to touch or restructure
+          whatever else you&apos;re already holding.
         </p>
 
         <div className="mt-14 text-center">
