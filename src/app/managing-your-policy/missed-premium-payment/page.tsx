@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { SafeLink } from "@/components/safe-link";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -87,9 +88,9 @@ export default function MissedPremiumPaymentPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             If your policy lapsed and reinstatement isn&apos;t the right fit,{" "}
-            <Link href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
+            <SafeLink href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
               see what you qualify for →
-            </Link>
+            </SafeLink>
           </p>
           <p className="mt-3 text-sm text-charcoal/60">
             <Link href="/managing-your-policy" className="font-semibold text-harbor-mid hover:underline">
